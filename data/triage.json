@@ -1,21 +1,21 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2025-12-22T08:08:12.650757-05:00",
+    "generated_at": "2025-12-22T08:39:01.848346-05:00",
     "phase2_ready": false,
-    "issue_count": 104,
+    "issue_count": 105,
     "compute_time_ms": 0
   },
   "quick_ref": {
-    "open_count": 74,
-    "actionable_count": 25,
-    "blocked_count": 49,
+    "open_count": 75,
+    "actionable_count": 16,
+    "blocked_count": 59,
     "in_progress_count": 1,
     "top_picks": [
       {
         "id": "agent-orchestrator-ngs",
         "title": "Team Maturity: Development Best Practices",
-        "score": 0.390227114128585,
+        "score": 0.36815743469090473,
         "reasons": [
           "🎯 Completing this unblocks 22 downstream issues (agent-orchestrator-21w, agent-orchestrator-485, +20 more)",
           "✅ Currently unclaimed - available for work"
@@ -23,27 +23,27 @@
         "unblocks": 22
       },
       {
-        "id": "agent-orchestrator-csf",
-        "title": "Connect workflow executor to main orchestration loop",
-        "score": 0.23692703320259498,
+        "id": "agent-orchestrator-8u8",
+        "title": "Workflow System: Wire Up What We've Built",
+        "score": 0.3291340394312665,
         "reasons": [
-          "🎯 Completing this unblocks 6 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, +4 more)",
+          "🎯 Completing this unblocks 10 downstream issues (agent-orchestrator-4q8, agent-orchestrator-50u, +8 more)",
           "✅ Currently unclaimed - available for work",
           "🚨 High priority (P1) - prioritize this work"
         ],
-        "unblocks": 6
+        "unblocks": 10
       },
       {
-        "id": "agent-orchestrator-1nn",
-        "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
-        "score": 0.1906081220175856,
+        "id": "agent-orchestrator-csf",
+        "title": "Connect workflow executor to main orchestration loop",
+        "score": 0.19208570906929573,
         "reasons": [
-          "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-635, agent-orchestrator-bp5, agent-orchestrator-wl8)",
+          "🔓 Unblocks 2 item(s): agent-orchestrator-5z0, agent-orchestrator-f15",
           "✅ Currently unclaimed - available for work",
-          "⏳ Blocked by agent-orchestrator-csf - complete that first",
+          "⏳ Blocked by agent-orchestrator-8u8 - complete that first",
           "🚨 High priority (P1) - prioritize this work"
         ],
-        "unblocks": 3
+        "unblocks": 2
       }
     ]
   },
@@ -59,20 +59,20 @@
         "type:meta",
         "value:critical"
       ],
-      "score": 0.390227114128585,
+      "score": 0.36815743469090473,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.13,
-        "staleness": 0.0006201342689236112,
+        "blocker_ratio": 0.10400000000000001,
+        "staleness": 0.0006558055187114198,
         "priority_boost": 0.05,
         "time_to_impact": 0,
         "urgency": 0.1,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 1,
-        "staleness_norm": 0.012402685378472222,
+        "blocker_ratio_norm": 0.8,
+        "staleness_norm": 0.013116110374228395,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0,
         "urgency_norm": 1,
@@ -120,6 +120,66 @@
       ]
     },
     {
+      "id": "agent-orchestrator-8u8",
+      "title": "Workflow System: Wire Up What We've Built",
+      "type": "epic",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "tier:complex",
+        "type:impl",
+        "value:critical"
+      ],
+      "score": 0.3291340394312665,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.13,
+        "staleness": 0.000002613234645061729,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0,
+        "urgency": 0.1,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 1,
+        "staleness_norm": 0.00005226469290123457,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0,
+        "urgency_norm": 1,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, explicit estimate 2400m",
+        "urgency_explanation": "has 'value:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🎯 Completing this unblocks 10 downstream issues (agent-orchestrator-4q8, agent-orchestrator-50u, +8 more)",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-4q8",
+        "agent-orchestrator-50u",
+        "agent-orchestrator-5ao",
+        "agent-orchestrator-bd7",
+        "agent-orchestrator-bqo",
+        "agent-orchestrator-csf",
+        "agent-orchestrator-kti",
+        "agent-orchestrator-pt3",
+        "agent-orchestrator-wp0",
+        "agent-orchestrator-xca"
+      ]
+    },
+    {
       "id": "agent-orchestrator-csf",
       "title": "Connect workflow executor to main orchestration loop",
       "type": "task",
@@ -131,20 +191,20 @@
         "type:impl",
         "value:critical"
       ],
-      "score": 0.23692703320259498,
+      "score": 0.19208570906929573,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.03791666666666667,
-        "staleness": 0.0006926772080439815,
+        "blocker_ratio": 0.030333333333333334,
+        "staleness": 0.0007283484578317901,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.015,
         "urgency": 0.1,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.2916666666666667,
-        "staleness_norm": 0.01385354416087963,
+        "blocker_ratio_norm": 0.23333333333333334,
+        "staleness_norm": 0.014566969156635802,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.15,
         "urgency_norm": 1,
@@ -161,19 +221,19 @@
           "explanation": "Low risk - stable dependency structure"
         }
       },
-      "action": "Start work on this issue",
+      "action": "Work on agent-orchestrator-8u8 first to unblock this",
       "reasons": [
-        "🎯 Completing this unblocks 6 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, +4 more)",
+        "🔓 Unblocks 2 item(s): agent-orchestrator-5z0, agent-orchestrator-f15",
         "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by agent-orchestrator-8u8 - complete that first",
         "🚨 High priority (P1) - prioritize this work"
       ],
       "unblocks_ids": [
-        "agent-orchestrator-1nn",
-        "agent-orchestrator-52d",
         "agent-orchestrator-5z0",
-        "agent-orchestrator-f15",
-        "agent-orchestrator-isj",
-        "agent-orchestrator-n44"
+        "agent-orchestrator-f15"
+      ],
+      "blocked_by": [
+        "agent-orchestrator-8u8"
       ]
     },
     {
@@ -188,164 +248,45 @@
         "type:impl",
         "value:critical"
       ],
-      "score": 0.1906081220175856,
+      "score": 0.1641014747084342,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.01625,
-        "staleness": 0.0006919707038001544,
+        "blocker_ratio": 0.013000000000000001,
+        "staleness": 0.000727641953587963,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
-        "risk": 0.0020000000000000005,
+        "risk": 0.011324324324324325,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.125,
-        "staleness_norm": 0.013839414076003087,
+        "blocker_ratio_norm": 0.1,
+        "staleness_norm": 0.01455283907175926,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
-        "risk_norm": 0.020000000000000004,
+        "risk_norm": 0.11324324324324324,
         "time_to_impact_explanation": "Leaf node, explicit estimate 180m",
         "urgency_explanation": "has 'value:critical' label",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
-          "fan_variance": 0,
+          "fan_variance": 0.3108108108108108,
           "activity_churn": 0,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
+          "composite_risk": 0.11324324324324324,
           "explanation": "Low risk - stable dependency structure"
         }
       },
       "action": "Work on agent-orchestrator-csf first to unblock this",
       "reasons": [
-        "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-635, agent-orchestrator-bp5, agent-orchestrator-wl8)",
         "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by agent-orchestrator-csf - complete that first",
+        "⏳ Blocked by 2 items - need to clear dependencies",
         "🚨 High priority (P1) - prioritize this work"
       ],
-      "unblocks_ids": [
-        "agent-orchestrator-635",
-        "agent-orchestrator-bp5",
-        "agent-orchestrator-wl8"
-      ],
       "blocked_by": [
-        "agent-orchestrator-csf"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-8go",
-      "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
-      "type": "task",
-      "status": "open",
-      "priority": 1,
-      "labels": [
-        "phase:2",
-        "tier:complex",
-        "type:impl",
-        "value:critical"
-      ],
-      "score": 0.18528652377815658,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0.027083333333333334,
-        "staleness": 0.0006926377648148148,
-        "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.015,
-        "urgency": 0.1,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.20833333333333334,
-        "staleness_norm": 0.013852755296296296,
-        "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.15,
-        "urgency_norm": 1,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, explicit estimate 240m",
-        "urgency_explanation": "has 'value:critical' label",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Work on agent-orchestrator-isj first to unblock this",
-      "reasons": [
-        "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-1hd, agent-orchestrator-3dg, agent-orchestrator-avo)",
-        "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by agent-orchestrator-isj - complete that first",
-        "🚨 High priority (P1) - prioritize this work"
-      ],
-      "unblocks_ids": [
-        "agent-orchestrator-1hd",
-        "agent-orchestrator-3dg",
-        "agent-orchestrator-avo"
-      ],
-      "blocked_by": [
-        "agent-orchestrator-isj"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-isj",
-      "title": "Implement human-in-the-loop approval system (Phase 1)",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": [
-        "phase:2",
-        "tier:complex",
-        "type:impl",
-        "value:critical"
-      ],
-      "score": 0.1651228411289871,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0.021666666666666667,
-        "staleness": 0.0006914301991126544,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.015,
-        "urgency": 0.1,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.16666666666666666,
-        "staleness_norm": 0.013828603982253086,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.15,
-        "urgency_norm": 1,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, explicit estimate 240m",
-        "urgency_explanation": "has 'value:critical' label",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Work on agent-orchestrator-csf first to unblock this",
-      "reasons": [
-        "🔓 Unblocks 2 item(s): agent-orchestrator-5ng, agent-orchestrator-8go",
-        "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by agent-orchestrator-csf - complete that first"
-      ],
-      "unblocks_ids": [
-        "agent-orchestrator-5ng",
-        "agent-orchestrator-8go"
-      ],
-      "blocked_by": [
-        "agent-orchestrator-csf"
+        "agent-orchestrator-csf",
+        "agent-orchestrator-8u8"
       ]
     },
     {
@@ -360,12 +301,12 @@
         "type:impl",
         "value:critical"
       ],
-      "score": 0.1637881183253463,
+      "score": 0.16381843888766587,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.0006919039121720679,
+        "staleness": 0.0007275751619598767,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.015,
         "urgency": 0.1,
@@ -373,7 +314,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.013838078243441358,
+        "staleness_norm": 0.014551503239197532,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.15,
         "urgency_norm": 1,
@@ -397,6 +338,111 @@
       ]
     },
     {
+      "id": "agent-orchestrator-8go",
+      "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "phase:2",
+        "tier:complex",
+        "type:impl",
+        "value:critical"
+      ],
+      "score": 0.1581058947415944,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.021666666666666667,
+        "staleness": 0.0007283090146026236,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.015,
+        "urgency": 0.1,
+        "risk": 0.013470588235294116,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.16666666666666666,
+        "staleness_norm": 0.01456618029205247,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.15,
+        "urgency_norm": 1,
+        "risk_norm": 0.13470588235294115,
+        "time_to_impact_explanation": "Leaf node, explicit estimate 240m",
+        "urgency_explanation": "has 'value:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.38235294117647056,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.13470588235294115,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on agent-orchestrator-isj first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "agent-orchestrator-isj",
+        "agent-orchestrator-8u8"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-isj",
+      "title": "Implement human-in-the-loop approval system (Phase 1)",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "phase:2",
+        "tier:complex",
+        "type:impl",
+        "value:critical"
+      ],
+      "score": 0.1457885693299186,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.017333333333333333,
+        "staleness": 0.0007271014489004631,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.015,
+        "urgency": 0.1,
+        "risk": 0.011324324324324325,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.13333333333333333,
+        "staleness_norm": 0.01454202897800926,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.15,
+        "urgency_norm": 1,
+        "risk_norm": 0.11324324324324324,
+        "time_to_impact_explanation": "Leaf node, explicit estimate 240m",
+        "urgency_explanation": "has 'value:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0.3108108108108108,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.11324324324324324,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on agent-orchestrator-csf first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by 2 items - need to clear dependencies"
+      ],
+      "blocked_by": [
+        "agent-orchestrator-csf",
+        "agent-orchestrator-8u8"
+      ]
+    },
+    {
       "id": "agent-orchestrator-fn0",
       "title": "Evaluate cass (Coding Agent Session Search) for conversation persistence",
       "type": "task",
@@ -407,12 +453,12 @@
         "type:research",
         "value:critical"
       ],
-      "score": 0.14180106884916424,
+      "score": 0.1418278222865051,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 7.841065779320987e-7,
+        "staleness": 0.000036455356365740746,
         "priority_boost": 0.05,
         "time_to_impact": 0.024375,
         "urgency": 0.1,
@@ -420,7 +466,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.000015682131558641974,
+        "staleness_norm": 0.0007291071273148148,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.24375,
         "urgency_norm": 1,
@@ -458,72 +504,25 @@
         "type:decision",
         "value:high"
       ],
-      "score": 0.08880287049208965,
+      "score": 0.08895183609071194,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.0006957188028356483,
+        "staleness": 0.0007313900526234568,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.0225,
-        "urgency": 0.004278246481975711,
+        "urgency": 0.004417828877625868,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.013914376056712965,
+        "staleness_norm": 0.014627801052469134,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.22499999999999998,
-        "urgency_norm": 0.042782464819757116,
+        "urgency_norm": 0.04417828877625868,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 120m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "✅ Currently unclaimed - available for work",
-        "🚨 High priority (P1) - prioritize this work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-50u",
-      "title": "Define structured handoff JSON schemas for agent-to-agent communication",
-      "type": "task",
-      "status": "open",
-      "priority": 1,
-      "labels": [
-        "phase:2",
-        "tier:standard",
-        "type:impl",
-        "value:high"
-      ],
-      "score": 0.0880000127324438,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.0006934074810185186,
-        "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.0225,
-        "urgency": 0.003336019263032991,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.013868149620370371,
-        "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.22499999999999998,
-        "urgency_norm": 0.03336019263032991,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, explicit estimate 120m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -552,23 +551,23 @@
         "type:impl",
         "value:high"
       ],
-      "score": 0.08769799764238313,
+      "score": 0.08600389694026445,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.010833333333333334,
-        "staleness": 0.0007303830373070988,
+        "blocker_ratio": 0.008666666666666666,
+        "staleness": 0.0007660542870949075,
         "priority_boost": 0.05,
         "time_to_impact": 0.018750000000000003,
-        "urgency": 0.004817617754088389,
+        "urgency": 0.00495555352141584,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.08333333333333333,
-        "staleness_norm": 0.014607660746141976,
+        "blocker_ratio_norm": 0.06666666666666667,
+        "staleness_norm": 0.015321085741898149,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.1875,
-        "urgency_norm": 0.04817617754088388,
+        "urgency_norm": 0.0495555352141584,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, explicit estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -624,39 +623,21 @@
       ]
     },
     {
-      "id": "agent-orchestrator-csf",
-      "title": "Connect workflow executor to main orchestration loop",
-      "score": 1.4229419688230418,
-      "reason": "Unblocks 6 items, high priority",
+      "id": "agent-orchestrator-8u8",
+      "title": "Workflow System: Wire Up What We've Built",
+      "score": 1.483772647454919,
+      "reason": "Unblocks 10 items, high priority",
       "unblocks_ids": [
-        "agent-orchestrator-1nn",
-        "agent-orchestrator-52d",
-        "agent-orchestrator-5z0",
-        "agent-orchestrator-f15",
-        "agent-orchestrator-isj",
-        "agent-orchestrator-n44"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-1nn",
-      "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
-      "score": 1.3000000000000003,
-      "reason": "Unblocks 3 items, high priority",
-      "unblocks_ids": [
-        "agent-orchestrator-635",
-        "agent-orchestrator-bp5",
-        "agent-orchestrator-wl8"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-8go",
-      "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
-      "score": 1.1,
-      "reason": "Unblocks 3 items, high priority",
-      "unblocks_ids": [
-        "agent-orchestrator-1hd",
-        "agent-orchestrator-3dg",
-        "agent-orchestrator-avo"
+        "agent-orchestrator-4q8",
+        "agent-orchestrator-50u",
+        "agent-orchestrator-5ao",
+        "agent-orchestrator-bd7",
+        "agent-orchestrator-bqo",
+        "agent-orchestrator-csf",
+        "agent-orchestrator-kti",
+        "agent-orchestrator-pt3",
+        "agent-orchestrator-wp0",
+        "agent-orchestrator-xca"
       ]
     },
     {
@@ -667,6 +648,25 @@
       "unblocks_ids": [
         "agent-orchestrator-etr",
         "agent-orchestrator-xx7"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-csf",
+      "title": "Connect workflow executor to main orchestration loop",
+      "score": 0.9339850002884625,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "agent-orchestrator-5z0",
+        "agent-orchestrator-f15"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-1lt",
+      "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
+      "score": 0.9,
+      "reason": "Unblocks 1 items, high priority",
+      "unblocks_ids": [
+        "agent-orchestrator-twh"
       ]
     }
   ],
@@ -702,46 +702,22 @@
       "actionable": true
     },
     {
-      "id": "agent-orchestrator-csf",
-      "title": "Connect workflow executor to main orchestration loop",
-      "unblocks_count": 6,
+      "id": "agent-orchestrator-8u8",
+      "title": "Workflow System: Wire Up What We've Built",
+      "unblocks_count": 10,
       "unblocks_ids": [
-        "agent-orchestrator-1nn",
-        "agent-orchestrator-52d",
-        "agent-orchestrator-5z0",
-        "agent-orchestrator-f15",
-        "agent-orchestrator-isj",
-        "agent-orchestrator-n44"
+        "agent-orchestrator-4q8",
+        "agent-orchestrator-50u",
+        "agent-orchestrator-5ao",
+        "agent-orchestrator-bd7",
+        "agent-orchestrator-bqo",
+        "agent-orchestrator-csf",
+        "agent-orchestrator-kti",
+        "agent-orchestrator-pt3",
+        "agent-orchestrator-wp0",
+        "agent-orchestrator-xca"
       ],
       "actionable": true
-    },
-    {
-      "id": "agent-orchestrator-1nn",
-      "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
-      "unblocks_count": 3,
-      "unblocks_ids": [
-        "agent-orchestrator-635",
-        "agent-orchestrator-bp5",
-        "agent-orchestrator-wl8"
-      ],
-      "actionable": false,
-      "blocked_by": [
-        "agent-orchestrator-csf"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-8go",
-      "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
-      "unblocks_count": 3,
-      "unblocks_ids": [
-        "agent-orchestrator-1hd",
-        "agent-orchestrator-3dg",
-        "agent-orchestrator-avo"
-      ],
-      "actionable": false,
-      "blocked_by": [
-        "agent-orchestrator-isj"
-      ]
     },
     {
       "id": "agent-orchestrator-ave",
@@ -752,35 +728,57 @@
         "agent-orchestrator-xx7"
       ],
       "actionable": true
+    },
+    {
+      "id": "agent-orchestrator-csf",
+      "title": "Connect workflow executor to main orchestration loop",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "agent-orchestrator-5z0",
+        "agent-orchestrator-f15"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "agent-orchestrator-8u8"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-1lt",
+      "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "agent-orchestrator-twh"
+      ],
+      "actionable": true
     }
   ],
   "project_health": {
     "counts": {
-      "total": 104,
-      "open": 74,
+      "total": 105,
+      "open": 75,
       "closed": 30,
-      "blocked": 49,
-      "actionable": 25,
+      "blocked": 59,
+      "actionable": 16,
       "by_status": {
         "closed": 30,
         "in_progress": 1,
-        "open": 73
+        "open": 74
       },
       "by_type": {
         "bug": 1,
-        "epic": 2,
+        "epic": 3,
         "task": 101
       },
       "by_priority": {
-        "1": 20,
+        "1": 21,
         "2": 45,
         "3": 39
       }
     },
     "graph": {
-      "node_count": 104,
-      "edge_count": 58,
-      "density": 0.005414488424197162,
+      "node_count": 105,
+      "edge_count": 88,
+      "density": 0.00805860805860806,
       "has_cycles": false,
       "phase2_ready": false
     },
