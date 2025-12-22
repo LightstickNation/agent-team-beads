@@ -1,51 +1,203 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2025-12-21T18:51:22.362799-05:00",
-    "phase2_ready": false,
-    "issue_count": 33,
+    "generated_at": "2025-12-21T20:34:40.083653-05:00",
+    "phase2_ready": true,
+    "issue_count": 50,
     "compute_time_ms": 0
   },
   "quick_ref": {
-    "open_count": 11,
-    "actionable_count": 10,
-    "blocked_count": 1,
+    "open_count": 28,
+    "actionable_count": 19,
+    "blocked_count": 9,
     "in_progress_count": 1,
     "top_picks": [
       {
-        "id": "agent-orchestrator-1lt",
-        "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
-        "score": 0.19485987035217053,
+        "id": "agent-orchestrator-csf",
+        "title": "Connect workflow executor to main orchestration loop",
+        "score": 0.2882915817318001,
         "reasons": [
-          "🔓 Unblocks 1 item(s): agent-orchestrator-twh",
-          "🚧 In progress - already being worked",
-          "🚨 High priority (P1) - prioritize this work"
-        ],
-        "unblocks": 1
-      },
-      {
-        "id": "agent-orchestrator-ekz",
-        "title": "Build API worker scaffold with budget safeguards",
-        "score": 0.08848267471197029,
-        "reasons": [
+          "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, agent-orchestrator-n44)",
           "✅ Currently unclaimed - available for work",
           "🚨 High priority (P1) - prioritize this work"
         ],
-        "unblocks": 0
+        "unblocks": 3
       },
       {
-        "id": "agent-orchestrator-rod",
-        "title": "FOUNDER REVIEW: Speed penalty thresholds",
-        "score": 0.08830520835237325,
+        "id": "agent-orchestrator-1nn",
+        "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
+        "score": 0.21194651336828332,
         "reasons": [
+          "🔓 Unblocks 2 item(s): agent-orchestrator-635, agent-orchestrator-bp5",
           "✅ Currently unclaimed - available for work",
+          "⏳ Blocked by agent-orchestrator-csf - complete that first",
           "🚨 High priority (P1) - prioritize this work"
         ],
-        "unblocks": 0
+        "unblocks": 2
+      },
+      {
+        "id": "agent-orchestrator-8go",
+        "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
+        "score": 0.19194506637735598,
+        "reasons": [
+          "🔓 Unblocks 2 item(s): agent-orchestrator-1hd, agent-orchestrator-avo",
+          "✅ Currently unclaimed - available for work",
+          "⏳ Blocked by agent-orchestrator-isj - complete that first"
+        ],
+        "unblocks": 2
       }
     ]
   },
   "recommendations": [
+    {
+      "id": "agent-orchestrator-csf",
+      "title": "Connect workflow executor to main orchestration loop",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.2882915817318001,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.13,
+        "staleness": 0.000006474337789351852,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.026250000000000002,
+        "urgency": 0.000027739464328380148,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 1,
+        "staleness_norm": 0.00012948675578703704,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.2625,
+        "urgency_norm": 0.0002773946432838015,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, agent-orchestrator-n44)",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-1nn",
+        "agent-orchestrator-52d",
+        "agent-orchestrator-n44"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-1nn",
+      "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.21194651336828332,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.08666666666666667,
+        "staleness": 0.000003117237789351852,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.026250000000000002,
+        "urgency": 0.000013357805898150943,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.6666666666666666,
+        "staleness_norm": 0.00006234475578703704,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.2625,
+        "urgency_norm": 0.00013357805898150943,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on agent-orchestrator-csf first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): agent-orchestrator-635, agent-orchestrator-bp5",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by agent-orchestrator-csf - complete that first",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-635",
+        "agent-orchestrator-bp5"
+      ],
+      "blocked_by": [
+        "agent-orchestrator-csf"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-8go",
+      "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.19194506637735598,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.08666666666666667,
+        "staleness": 0.0000027749739197530865,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.026250000000000002,
+        "urgency": 0.000011891331108576653,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.6666666666666666,
+        "staleness_norm": 0.00005549947839506173,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.2625,
+        "urgency_norm": 0.00011891331108576653,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on agent-orchestrator-isj first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): agent-orchestrator-1hd, agent-orchestrator-avo",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by agent-orchestrator-isj - complete that first"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-1hd",
+        "agent-orchestrator-avo"
+      ],
+      "blocked_by": [
+        "agent-orchestrator-isj"
+      ]
+    },
     {
       "id": "agent-orchestrator-1lt",
       "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
@@ -53,23 +205,23 @@
       "status": "in_progress",
       "priority": 1,
       "labels": null,
-      "score": 0.19485987035217053,
+      "score": 0.13462014359124208,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.13,
-        "staleness": 0.00036105303659336426,
+        "blocker_ratio": 0.043333333333333335,
+        "staleness": 0.00048060783701774686,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.001903047466507374,
+        "urgency": 0.002393406817137589,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 1,
-        "staleness_norm": 0.007221060731867284,
+        "blocker_ratio_norm": 0.3333333333333333,
+        "staleness_norm": 0.009612156740354937,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.019030474665073738,
+        "urgency_norm": 0.02393406817137589,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -93,29 +245,74 @@
       ]
     },
     {
+      "id": "agent-orchestrator-isj",
+      "title": "Implement human-in-the-loop approval system (Phase 1)",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.13441925511744202,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.043333333333333335,
+        "staleness": 0.0002409205239583334,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.026250000000000002,
+        "urgency": 0.0010219286338165989,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.3333333333333333,
+        "staleness_norm": 0.004818410479166668,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.2625,
+        "urgency_norm": 0.01021928633816599,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): agent-orchestrator-8go",
+        "✅ Currently unclaimed - available for work"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-8go"
+      ]
+    },
+    {
       "id": "agent-orchestrator-ekz",
       "title": "Build API worker scaffold with budget safeguards",
       "type": "task",
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.08848267471197029,
+      "score": 0.08901164797713175,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.00016119199402006175,
+        "staleness": 0.00028074679444444443,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0006860723730037988,
+        "urgency": 0.0011888390610046652,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.0032238398804012346,
+        "staleness_norm": 0.005614935888888888,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0068607237300379875,
+        "urgency_norm": 0.01188839061004665,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -141,23 +338,23 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.08830520835237325,
+      "score": 0.08883564525280449,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.00012130313740354938,
+        "staleness": 0.0002408579378279321,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.000517177277153208,
+        "urgency": 0.0010216658890008778,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.0024260627480709876,
+        "staleness_norm": 0.0048171587565586415,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.005171772771532079,
+        "urgency_norm": 0.010216658890008778,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -174,6 +371,98 @@
       "reasons": [
         "✅ Currently unclaimed - available for work",
         "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-52d",
+      "title": "Implement intent router to detect workflow triggers from messages",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.08261352639426109,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.0000031991650655864196,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.026250000000000002,
+        "urgency": 0.000013708827760777753,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.00006398330131172839,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.2625,
+        "urgency_norm": 0.00013708827760777753,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on agent-orchestrator-csf first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by agent-orchestrator-csf - complete that first",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "agent-orchestrator-csf"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-n44",
+      "title": "Create first end-to-end workflow test: brain-dump-to-requirements",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": null,
+      "score": 0.08261336028767302,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.0000031598744212962962,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.026250000000000002,
+        "urgency": 0.000013540485169949435,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.00006319748842592592,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.2625,
+        "urgency_norm": 0.00013540485169949434,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on agent-orchestrator-csf first to unblock this",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by agent-orchestrator-csf - complete that first",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "blocked_by": [
+        "agent-orchestrator-csf"
       ]
     },
     {
@@ -183,23 +472,23 @@
       "status": "open",
       "priority": 2,
       "labels": null,
-      "score": 0.0683373580826733,
+      "score": 0.06885724232320531,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.0004119982985532408,
+        "staleness": 0.0005315530989776234,
         "priority_boost": 0.05,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0017348935634153462,
+        "urgency": 0.0022269672812639143,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.008239965971064816,
+        "staleness_norm": 0.010631061979552468,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.017348935634153462,
+        "urgency_norm": 0.02226967281263914,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -215,295 +504,98 @@
       "action": "Start work on this issue",
       "reasons": [
         "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-r80",
-      "title": "Research Claude  plan resource limits for parallel agents",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": null,
-      "score": 0.06815025112288914,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.0003692105920910494,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0015575554348373488,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.007384211841820988,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.015575554348373488,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-dvv",
-      "title": "Blake: Rename test_agent-memory.json to test_agent.json",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": null,
-      "score": 0.06766964462477218,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.00025988162955246913,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0011014649878265837,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.005197632591049383,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.011014649878265836,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-ave",
-      "title": "Morgan: Implement coordination budget monitoring (Phase 1)",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": null,
-      "score": 0.06766906791776524,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.00025975093485725313,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0011009172036900662,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.005195018697145062,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.01100917203690066,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-isj",
-      "title": "Implement human-in-the-loop approval system (Phase 1)",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": null,
-      "score": 0.06705548718406198,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.00012136572353395061,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0005174427283036742,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.002427314470679012,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.005174427283036742,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-zxi",
-      "title": "Implement human-in-the-loop approval system (Phase 2-5)",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": null,
-      "score": 0.06705534300317015,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.00012133336087962962,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0005173054663793587,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.0024266672175925924,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.005173054663793586,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-twh",
-      "title": "Phase 4: Drop database system_prompt column",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": null,
-      "score": 0.06448379705499975,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.0004525170520640432,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.00190222926668564,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.009050341041280864,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0190222926668564,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Work on agent-orchestrator-1lt first to unblock this",
-      "reasons": [
-        "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by agent-orchestrator-1lt - complete that first"
-      ],
-      "blocked_by": [
-        "agent-orchestrator-1lt"
       ]
     }
   ],
   "quick_wins": [
     {
+      "id": "agent-orchestrator-csf",
+      "title": "Connect workflow executor to main orchestration loop",
+      "score": 0.9,
+      "reason": "Unblocks 3 items, high priority",
+      "unblocks_ids": [
+        "agent-orchestrator-1nn",
+        "agent-orchestrator-52d",
+        "agent-orchestrator-n44"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-1nn",
+      "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
+      "score": 0.7339850002884626,
+      "reason": "Unblocks 2 items, high priority",
+      "unblocks_ids": [
+        "agent-orchestrator-635",
+        "agent-orchestrator-bp5"
+      ]
+    },
+    {
       "id": "agent-orchestrator-1lt",
       "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
-      "score": 0.5,
+      "score": 0.7000000000000001,
       "reason": "Unblocks 1 items, high priority",
       "unblocks_ids": [
         "agent-orchestrator-twh"
       ]
     },
     {
-      "id": "agent-orchestrator-ekz",
-      "title": "Build API worker scaffold with budget safeguards",
-      "score": 0.5,
-      "reason": "Low complexity, high priority"
+      "id": "agent-orchestrator-8go",
+      "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
+      "score": 0.6339850002884626,
+      "reason": "Unblocks 2 items",
+      "unblocks_ids": [
+        "agent-orchestrator-1hd",
+        "agent-orchestrator-avo"
+      ]
     },
     {
-      "id": "agent-orchestrator-rod",
-      "title": "FOUNDER REVIEW: Speed penalty thresholds",
-      "score": 0.5,
-      "reason": "Low complexity, high priority"
-    },
-    {
-      "id": "agent-orchestrator-565",
-      "title": "Investigate Discord TTS options for reading incoming messages aloud",
-      "score": 0.4,
-      "reason": "Low complexity"
-    },
-    {
-      "id": "agent-orchestrator-ave",
-      "title": "Morgan: Implement coordination budget monitoring (Phase 1)",
-      "score": 0.4,
-      "reason": "Low complexity"
+      "id": "agent-orchestrator-isj",
+      "title": "Implement human-in-the-loop approval system (Phase 1)",
+      "score": 0.6000000000000001,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "agent-orchestrator-8go"
+      ]
     }
   ],
   "blockers_to_clear": [
+    {
+      "id": "agent-orchestrator-csf",
+      "title": "Connect workflow executor to main orchestration loop",
+      "unblocks_count": 3,
+      "unblocks_ids": [
+        "agent-orchestrator-1nn",
+        "agent-orchestrator-52d",
+        "agent-orchestrator-n44"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "agent-orchestrator-1nn",
+      "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "agent-orchestrator-635",
+        "agent-orchestrator-bp5"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "agent-orchestrator-csf"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-8go",
+      "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "agent-orchestrator-1hd",
+        "agent-orchestrator-avo"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "agent-orchestrator-isj"
+      ]
+    },
     {
       "id": "agent-orchestrator-1lt",
       "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
@@ -512,41 +604,54 @@
         "agent-orchestrator-twh"
       ],
       "actionable": true
+    },
+    {
+      "id": "agent-orchestrator-isj",
+      "title": "Implement human-in-the-loop approval system (Phase 1)",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "agent-orchestrator-8go"
+      ],
+      "actionable": true
     }
   ],
   "project_health": {
     "counts": {
-      "total": 33,
-      "open": 11,
+      "total": 50,
+      "open": 28,
       "closed": 22,
-      "blocked": 1,
-      "actionable": 10,
+      "blocked": 9,
+      "actionable": 19,
       "by_status": {
         "closed": 22,
         "in_progress": 1,
-        "open": 10
+        "open": 27
       },
       "by_type": {
-        "task": 33
+        "task": 50
       },
       "by_priority": {
-        "1": 9,
-        "2": 21,
-        "3": 3
+        "1": 13,
+        "2": 29,
+        "3": 8
       }
     },
     "graph": {
-      "node_count": 33,
-      "edge_count": 2,
-      "density": 0.001893939393939394,
+      "node_count": 50,
+      "edge_count": 10,
+      "density": 0.004081632653061225,
       "has_cycles": false,
-      "phase2_ready": false
+      "phase2_ready": true
     },
     "velocity": {
       "closed_last_7_days": 22,
       "closed_last_30_days": 22,
       "avg_days_to_close": 0.08321047831228956,
       "weekly": [
+        {
+          "week_start": "2025-12-22T00:00:00Z",
+          "closed": 0
+        },
         {
           "week_start": "2025-12-15T00:00:00Z",
           "closed": 22
@@ -574,17 +679,13 @@
         {
           "week_start": "2025-11-03T00:00:00Z",
           "closed": 0
-        },
-        {
-          "week_start": "2025-10-27T00:00:00Z",
-          "closed": 0
         }
       ]
     }
   },
   "commands": {
-    "claim_top": "bd update agent-orchestrator-1lt --status=in_progress",
-    "show_top": "bd show agent-orchestrator-1lt",
+    "claim_top": "bd update agent-orchestrator-csf --status=in_progress",
+    "show_top": "bd show agent-orchestrator-csf",
     "list_ready": "bd ready",
     "list_blocked": "bd blocked",
     "refresh_triage": "bv --robot-triage"
