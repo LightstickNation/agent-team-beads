@@ -1,32 +1,32 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2025-12-21T20:40:56.872349-05:00",
+    "generated_at": "2025-12-21T20:46:08.042823-05:00",
     "phase2_ready": false,
-    "issue_count": 58,
+    "issue_count": 65,
     "compute_time_ms": 0
   },
   "quick_ref": {
-    "open_count": 36,
-    "actionable_count": 20,
-    "blocked_count": 16,
+    "open_count": 43,
+    "actionable_count": 24,
+    "blocked_count": 19,
     "in_progress_count": 1,
     "top_picks": [
       {
         "id": "agent-orchestrator-csf",
         "title": "Connect workflow executor to main orchestration loop",
-        "score": 0.31832421423670526,
+        "score": 0.34835115132786626,
         "reasons": [
-          "🎯 Completing this unblocks 4 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, +2 more)",
+          "🎯 Completing this unblocks 6 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, +4 more)",
           "✅ Currently unclaimed - available for work",
           "🚨 High priority (P1) - prioritize this work"
         ],
-        "unblocks": 4
+        "unblocks": 6
       },
       {
         "id": "agent-orchestrator-8go",
         "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
-        "score": 0.2649702259711476,
+        "score": 0.22213685724565238,
         "reasons": [
           "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-1hd, agent-orchestrator-3dg, agent-orchestrator-avo)",
           "✅ Currently unclaimed - available for work",
@@ -38,7 +38,7 @@
       {
         "id": "agent-orchestrator-1nn",
         "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
-        "score": 0.23504390014629695,
+        "score": 0.20224068718841132,
         "reasons": [
           "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-635, agent-orchestrator-bp5, agent-orchestrator-wl8)",
           "✅ Currently unclaimed - available for work",
@@ -57,23 +57,23 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.31832421423670526,
+      "score": 0.34835115132786626,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.13,
-        "staleness": 0.000013742638252314815,
+        "staleness": 0.000019745155111882717,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.000058862346106780544,
+        "urgency": 0.0000845505247307643,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 1,
-        "staleness_norm": 0.0002748527650462963,
+        "staleness_norm": 0.0003949031022376543,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0005886234610678054,
+        "urgency_norm": 0.000845505247307643,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -88,13 +88,15 @@
       },
       "action": "Start work on this issue",
       "reasons": [
-        "🎯 Completing this unblocks 4 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, +2 more)",
+        "🎯 Completing this unblocks 6 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, +4 more)",
         "✅ Currently unclaimed - available for work",
         "🚨 High priority (P1) - prioritize this work"
       ],
       "unblocks_ids": [
         "agent-orchestrator-1nn",
         "agent-orchestrator-52d",
+        "agent-orchestrator-5z0",
+        "agent-orchestrator-f15",
         "agent-orchestrator-isj",
         "agent-orchestrator-n44"
       ]
@@ -106,23 +108,23 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.2649702259711476,
+      "score": 0.22213685724565238,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.13,
-        "staleness": 6.105450424382716e-7,
+        "blocker_ratio": 0.09285714285714286,
+        "staleness": 0.000006613061902006174,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.000043024083154430404,
+        "urgency": 0.00006872040849165706,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 1,
-        "staleness_norm": 0.000012210900848765431,
+        "blocker_ratio_norm": 0.7142857142857143,
+        "staleness_norm": 0.00013226123804012347,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.00043024083154430404,
+        "urgency_norm": 0.0006872040849165706,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -158,23 +160,23 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.23504390014629695,
+      "score": 0.20224068718841132,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.078,
-        "staleness": 0.000010385538252314814,
+        "blocker_ratio": 0.055714285714285716,
+        "staleness": 0.000016388055111882715,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.00004448964461887251,
+        "urgency": 0.00007018521611655281,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.6,
-        "staleness_norm": 0.00020771076504629628,
+        "blocker_ratio_norm": 0.42857142857142855,
+        "staleness_norm": 0.0003277611022376543,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.00044489644618872504,
+        "urgency_norm": 0.0007018521611655282,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -210,23 +212,23 @@
       "status": "open",
       "priority": 2,
       "labels": null,
-      "score": 0.18604049692468783,
+      "score": 0.15823686920313448,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.078,
-        "staleness": 0.0002481888244212963,
+        "blocker_ratio": 0.055714285714285716,
+        "staleness": 0.00025419134128086416,
         "priority_boost": 0.05,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0010524323314385186,
+        "urgency": 0.001077609448351502,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.6,
-        "staleness_norm": 0.004963776488425926,
+        "blocker_ratio_norm": 0.42857142857142855,
+        "staleness_norm": 0.005083826825617283,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.010524323314385187,
+        "urgency_norm": 0.01077609448351502,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -254,29 +256,75 @@
       ]
     },
     {
+      "id": "agent-orchestrator-ave",
+      "title": "Morgan: Implement coordination budget monitoring (Phase 1)",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": null,
+      "score": 0.14982392554264895,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.037142857142857144,
+        "staleness": 0.00039257655260416675,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.026250000000000002,
+        "urgency": 0.0016544787076550938,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.2857142857142857,
+        "staleness_norm": 0.007851531052083334,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.2625,
+        "urgency_norm": 0.016544787076550937,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 2 item(s): agent-orchestrator-etr, agent-orchestrator-xx7",
+        "✅ Currently unclaimed - available for work"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-etr",
+        "agent-orchestrator-xx7"
+      ]
+    },
+    {
       "id": "agent-orchestrator-1lt",
       "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
       "type": "task",
       "status": "in_progress",
       "priority": 1,
       "labels": null,
-      "score": 0.12251265274390555,
+      "score": 0.11233398498288351,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.026000000000000002,
-        "staleness": 0.0004878761374807099,
+        "blocker_ratio": 0.018571428571428572,
+        "staleness": 0.0004938786543402778,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0024230563538129414,
+        "urgency": 0.002447528464064741,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.2,
-        "staleness_norm": 0.009757522749614198,
+        "blocker_ratio_norm": 0.14285714285714285,
+        "staleness_norm": 0.009877573086805556,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.024230563538129413,
+        "urgency_norm": 0.02447528464064741,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -300,74 +348,29 @@
       ]
     },
     {
-      "id": "agent-orchestrator-ave",
-      "title": "Morgan: Implement coordination budget monitoring (Phase 1)",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": null,
-      "score": 0.1203262466274815,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0.026000000000000002,
-        "staleness": 0.00038657403574459884,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0016295984671747922,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.2,
-        "staleness_norm": 0.007731480714891976,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.01629598467174792,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "🔓 Unblocks 1 item(s): agent-orchestrator-xx7",
-        "✅ Currently unclaimed - available for work"
-      ],
-      "unblocks_ids": [
-        "agent-orchestrator-xx7"
-      ]
-    },
-    {
       "id": "agent-orchestrator-ekz",
       "title": "Build API worker scaffold with budget safeguards",
       "type": "task",
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.08904366581601363,
+      "score": 0.08907009557463669,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.0002880150949074074,
+        "staleness": 0.00029401761176697534,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0012192388062850779,
+        "urgency": 0.0012443301230997295,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.0057603018981481485,
+        "staleness_norm": 0.005880352235339506,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.012192388062850779,
+        "urgency_norm": 0.012443301230997295,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -393,23 +396,23 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.0888677515902692,
+      "score": 0.08889425439377996,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.0002481262382908951,
+        "staleness": 0.000254128755150463,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0010521697502611006,
+        "urgency": 0.0010773470022377273,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.0049625247658179016,
+        "staleness_norm": 0.00508257510300926,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.010521697502611005,
+        "urgency_norm": 0.010773470022377274,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -435,23 +438,23 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.08779993412070997,
+      "score": 0.08782687794598262,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 5.801288194444445e-7,
+        "staleness": 0.000006582645679012346,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.00004346001319227577,
+        "urgency": 0.00006915611430056146,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.00001160257638888889,
+        "staleness_norm": 0.0001316529135802469,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0004346001319227577,
+        "urgency_norm": 0.0006915611430056146,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -477,23 +480,23 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.08264424633071402,
+      "score": 0.08266960465704595,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.000010467465528549384,
+        "staleness": 0.000016469982388117283,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.00004484044786396968,
+        "urgency": 0.0000705358389192945,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.00020934931057098766,
+        "staleness_norm": 0.0003293996477623457,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0004484044786396968,
+        "urgency_norm": 0.0007053583891929449,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 60m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -521,13 +524,24 @@
     {
       "id": "agent-orchestrator-csf",
       "title": "Connect workflow executor to main orchestration loop",
-      "score": 1.028771237954945,
-      "reason": "Unblocks 4 items, high priority",
+      "score": 1.2229419688230418,
+      "reason": "Unblocks 6 items, high priority",
       "unblocks_ids": [
         "agent-orchestrator-1nn",
         "agent-orchestrator-52d",
+        "agent-orchestrator-5z0",
+        "agent-orchestrator-f15",
         "agent-orchestrator-isj",
         "agent-orchestrator-n44"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-1lt",
+      "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
+      "score": 0.9,
+      "reason": "Unblocks 1 items, high priority",
+      "unblocks_ids": [
+        "agent-orchestrator-twh"
       ]
     },
     {
@@ -553,22 +567,13 @@
       ]
     },
     {
-      "id": "agent-orchestrator-1lt",
-      "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
-      "score": 0.7000000000000001,
-      "reason": "Unblocks 1 items, high priority",
-      "unblocks_ids": [
-        "agent-orchestrator-twh"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-isj",
-      "title": "Implement human-in-the-loop approval system (Phase 1)",
-      "score": 0.6339850002884626,
+      "id": "agent-orchestrator-ave",
+      "title": "Morgan: Implement coordination budget monitoring (Phase 1)",
+      "score": 0.8339850002884626,
       "reason": "Unblocks 2 items",
       "unblocks_ids": [
-        "agent-orchestrator-8go",
-        "agent-orchestrator-zxi"
+        "agent-orchestrator-etr",
+        "agent-orchestrator-xx7"
       ]
     }
   ],
@@ -576,10 +581,12 @@
     {
       "id": "agent-orchestrator-csf",
       "title": "Connect workflow executor to main orchestration loop",
-      "unblocks_count": 4,
+      "unblocks_count": 6,
       "unblocks_ids": [
         "agent-orchestrator-1nn",
         "agent-orchestrator-52d",
+        "agent-orchestrator-5z0",
+        "agent-orchestrator-f15",
         "agent-orchestrator-isj",
         "agent-orchestrator-n44"
       ],
@@ -614,6 +621,16 @@
       ]
     },
     {
+      "id": "agent-orchestrator-ave",
+      "title": "Morgan: Implement coordination budget monitoring (Phase 1)",
+      "unblocks_count": 2,
+      "unblocks_ids": [
+        "agent-orchestrator-etr",
+        "agent-orchestrator-xx7"
+      ],
+      "actionable": true
+    },
+    {
       "id": "agent-orchestrator-isj",
       "title": "Implement human-in-the-loop approval system (Phase 1)",
       "unblocks_count": 2,
@@ -625,42 +642,34 @@
       "blocked_by": [
         "agent-orchestrator-csf"
       ]
-    },
-    {
-      "id": "agent-orchestrator-1lt",
-      "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
-      "unblocks_count": 1,
-      "unblocks_ids": [
-        "agent-orchestrator-twh"
-      ],
-      "actionable": true
     }
   ],
   "project_health": {
     "counts": {
-      "total": 58,
-      "open": 36,
+      "total": 65,
+      "open": 43,
       "closed": 22,
-      "blocked": 16,
-      "actionable": 20,
+      "blocked": 19,
+      "actionable": 24,
       "by_status": {
         "closed": 22,
         "in_progress": 1,
-        "open": 35
+        "open": 42
       },
       "by_type": {
-        "task": 58
+        "bug": 1,
+        "task": 64
       },
       "by_priority": {
         "1": 16,
-        "2": 31,
-        "3": 11
+        "2": 32,
+        "3": 17
       }
     },
     "graph": {
-      "node_count": 58,
-      "edge_count": 19,
-      "density": 0.005747126436781609,
+      "node_count": 65,
+      "edge_count": 22,
+      "density": 0.005288461538461539,
       "has_cycles": false,
       "phase2_ready": false
     },
