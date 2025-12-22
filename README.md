@@ -2,7 +2,9 @@
 
 ## 📊 Executive Summary
 
-**71** total issues | **39%** complete | **24** ready to work | **19** blocked
+**79** total issues | **38%** complete | **24** ready to work | **25** blocked
+
+⚠️ **Health Warning:** More issues are blocked than actionable. Focus on clearing blockers.
 
 ## 🎯 Top Priorities
 
@@ -41,15 +43,15 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
 | `agent-orchestrator-csf` | Connect workflow executor to main orc... | **6** issues | Ready |
-| `agent-orchestrator-8go` | Implement Discord reaction-based appr... | **3** issues | Blocked by 1 |
 | `agent-orchestrator-1nn` | Implement risk tier enforcement in wo... | **3** issues | Blocked by 1 |
-| `agent-orchestrator-ave` | Morgan: Implement coordination budget... | **2** issues | Ready |
+| `agent-orchestrator-8go` | Implement Discord reaction-based appr... | **3** issues | Blocked by 1 |
 | `agent-orchestrator-isj` | Implement human-in-the-loop approval ... | **2** issues | Blocked by 1 |
+| `agent-orchestrator-ave` | Morgan: Implement coordination budget... | **2** issues | Ready |
 
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.005 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 71 issues with 25 dependencies
+- **Graph Size:** 79 issues with 32 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -69,11 +71,11 @@ Low-effort items that clear the path forward:
 
 ## 📋 Status Summary
 
-**By Priority:** P1: 20 | P2: 33 | P3: 18
+**By Priority:** P1: 20 | P2: 35 | P3: 24
 
-**By Type:** bug: 1 | epic: 1 | task: 69
+**By Type:** bug: 1 | epic: 1 | task: 77
 
 ---
 
-*Generated Dec 21, 2025 at 9:43 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Dec 21, 2025 at 10:13 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
