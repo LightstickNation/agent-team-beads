@@ -1,30 +1,30 @@
 {
   "counts": {
-    "total": 79,
-    "open": 49,
+    "total": 95,
+    "open": 65,
     "closed": 30,
-    "blocked": 25,
-    "actionable": 24,
+    "blocked": 40,
+    "actionable": 25,
     "by_status": {
       "closed": 30,
       "in_progress": 1,
-      "open": 48
+      "open": 64
     },
     "by_type": {
       "bug": 1,
-      "epic": 1,
-      "task": 77
+      "epic": 2,
+      "task": 92
     },
     "by_priority": {
       "1": 20,
-      "2": 35,
-      "3": 24
+      "2": 42,
+      "3": 33
     }
   },
   "graph": {
-    "node_count": 79,
-    "edge_count": 32,
-    "density": 0.00519311911716975,
+    "node_count": 95,
+    "edge_count": 48,
+    "density": 0.005375139977603583,
     "has_cycles": false,
     "phase2_ready": false
   },
