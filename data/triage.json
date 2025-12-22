@@ -1,21 +1,21 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2025-12-21T20:46:08.042823-05:00",
+    "generated_at": "2025-12-21T21:32:08.496899-05:00",
     "phase2_ready": false,
-    "issue_count": 65,
+    "issue_count": 71,
     "compute_time_ms": 0
   },
   "quick_ref": {
-    "open_count": 43,
-    "actionable_count": 24,
-    "blocked_count": 19,
+    "open_count": 49,
+    "actionable_count": 27,
+    "blocked_count": 22,
     "in_progress_count": 1,
     "top_picks": [
       {
         "id": "agent-orchestrator-csf",
         "title": "Connect workflow executor to main orchestration loop",
-        "score": 0.34835115132786626,
+        "score": 0.3422146244347345,
         "reasons": [
           "🎯 Completing this unblocks 6 downstream issues (agent-orchestrator-1nn, agent-orchestrator-52d, +4 more)",
           "✅ Currently unclaimed - available for work",
@@ -26,7 +26,7 @@
       {
         "id": "agent-orchestrator-8go",
         "title": "Implement Discord reaction-based approval system for DANGEROUS tier",
-        "score": 0.22213685724565238,
+        "score": 0.21672232875878142,
         "reasons": [
           "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-1hd, agent-orchestrator-3dg, agent-orchestrator-avo)",
           "✅ Currently unclaimed - available for work",
@@ -36,16 +36,15 @@
         "unblocks": 3
       },
       {
-        "id": "agent-orchestrator-1nn",
-        "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
-        "score": 0.20224068718841132,
+        "id": "agent-orchestrator-14p",
+        "title": "Define create-a-bead workflow and task template",
+        "score": 0.20717452703848724,
         "reasons": [
-          "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-635, agent-orchestrator-bp5, agent-orchestrator-wl8)",
+          "🔓 Unblocks 1 item(s): agent-orchestrator-bmy",
           "✅ Currently unclaimed - available for work",
-          "⏳ Blocked by agent-orchestrator-csf - complete that first",
           "🚨 High priority (P1) - prioritize this work"
         ],
-        "unblocks": 3
+        "unblocks": 1
       }
     ]
   },
@@ -57,25 +56,25 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.34835115132786626,
+      "score": 0.3422146244347345,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.13,
-        "staleness": 0.000019745155111882717,
+        "staleness": 0.00007299465503472224,
         "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0000845505247307643,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.0003118576211235069,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 1,
-        "staleness_norm": 0.0003949031022376543,
+        "staleness_norm": 0.0014598931006944446,
         "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.000845505247307643,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.003118576211235069,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -108,25 +107,25 @@
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.22213685724565238,
+      "score": 0.21672232875878142,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.09285714285714286,
-        "staleness": 0.000006613061902006174,
+        "staleness": 0.000059862561824845677,
         "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.00006872040849165706,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.00029609959274088385,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0.7142857142857143,
-        "staleness_norm": 0.00013226123804012347,
+        "staleness_norm": 0.0011972512364969135,
         "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0006872040849165706,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.002960995927408838,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -154,31 +153,82 @@
       ]
     },
     {
+      "id": "agent-orchestrator-14p",
+      "title": "Define create-a-bead workflow and task template",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "tier:standard",
+        "type:meta",
+        "value:critical"
+      ],
+      "score": 0.20717452703848724,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.018571428571428572,
+        "staleness": 0.0000015444150270061727,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.1,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.14285714285714285,
+        "staleness_norm": 0.000030888300540123454,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 1,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "urgency_explanation": "has 'value:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): agent-orchestrator-bmy",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-bmy"
+      ]
+    },
+    {
       "id": "agent-orchestrator-1nn",
       "title": "Implement risk tier enforcement in workflow executor (CRITICAL/DANGEROUS/SAFE)",
       "type": "task",
       "status": "open",
       "priority": 1,
       "labels": null,
-      "score": 0.20224068718841132,
+      "score": 0.1964651847993464,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.055714285714285716,
-        "staleness": 0.000016388055111882715,
+        "staleness": 0.00006963755503472223,
         "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.00007018521611655281,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.0002975577298625243,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0.42857142857142855,
-        "staleness_norm": 0.0003277611022376543,
+        "staleness_norm": 0.0013927511006944446,
         "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0007018521611655282,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.0029755772986252427,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -212,25 +262,25 @@
       "status": "open",
       "priority": 2,
       "labels": null,
-      "score": 0.15823686920313448,
+      "score": 0.15245769669302325,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.055714285714285716,
-        "staleness": 0.00025419134128086416,
+        "staleness": 0.0003074408412037037,
         "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.001077609448351502,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.0013003943107896656,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0.42857142857142855,
-        "staleness_norm": 0.005083826825617283,
+        "staleness_norm": 0.006148816824074074,
         "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.01077609448351502,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.013003943107896654,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -256,31 +306,78 @@
       ]
     },
     {
+      "id": "agent-orchestrator-zef",
+      "title": "Retrofit existing Beads tasks with proper documentation (65 tasks)",
+      "type": "epic",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "tier:complex",
+        "type:meta",
+        "value:critical"
+      ],
+      "score": 0.15045109496842593,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.000001288198148148148,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0,
+        "urgency": 0.1,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.00002576396296296296,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0,
+        "urgency_norm": 1,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, explicit estimate 480m",
+        "urgency_explanation": "has 'value:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
       "id": "agent-orchestrator-ave",
       "title": "Morgan: Implement coordination budget monitoring (Phase 1)",
       "type": "task",
       "status": "open",
       "priority": 2,
       "labels": null,
-      "score": 0.14982392554264895,
+      "score": 0.1436813218246569,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.037142857142857144,
-        "staleness": 0.00039257655260416675,
+        "staleness": 0.00044582605252700615,
         "priority_boost": 0.05,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0016544787076550938,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.001874636598329832,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0.2857142857142857,
-        "staleness_norm": 0.007851531052083334,
+        "staleness_norm": 0.008916521050540123,
         "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.016544787076550937,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.01874636598329832,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -302,31 +399,85 @@
       ]
     },
     {
+      "id": "agent-orchestrator-bmy",
+      "title": "Batch 1: Retrofit P1 tasks (9 tasks)",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "tier:standard",
+        "type:meta",
+        "value:high"
+      ],
+      "score": 0.11945828208830506,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.018571428571428572,
+        "staleness": 2.6941529706790126e-7,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.0225,
+        "urgency": 0.000001154623655669207,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.14285714285714285,
+        "staleness_norm": 0.000005388305941358025,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.22499999999999998,
+        "urgency_norm": 0.000011546236556692069,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, explicit estimate 120m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on agent-orchestrator-14p first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): agent-orchestrator-ejx",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by agent-orchestrator-14p - complete that first",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-ejx"
+      ],
+      "blocked_by": [
+        "agent-orchestrator-14p"
+      ]
+    },
+    {
       "id": "agent-orchestrator-1lt",
       "title": "Phase 2 Testing: Validate Memory JSON as canonical source",
       "type": "task",
       "status": "in_progress",
       "priority": 1,
       "labels": null,
-      "score": 0.11233398498288351,
+      "score": 0.1072728421597091,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.018571428571428572,
-        "staleness": 0.0004938786543402778,
+        "staleness": 0.0005471281542631173,
         "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.002447528464064741,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.0026640749310355982,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0.14285714285714285,
-        "staleness_norm": 0.009877573086805556,
+        "staleness_norm": 0.010942563085262345,
         "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.02447528464064741,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.026640749310355982,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -348,31 +499,35 @@
       ]
     },
     {
-      "id": "agent-orchestrator-ekz",
-      "title": "Build API worker scaffold with budget safeguards",
+      "id": "agent-orchestrator-ejx",
+      "title": "Batch 2: Retrofit P2 blocker tasks",
       "type": "task",
       "status": "open",
-      "priority": 1,
-      "labels": null,
-      "score": 0.08907009557463669,
+      "priority": 2,
+      "labels": [
+        "tier:standard",
+        "type:meta",
+        "value:high"
+      ],
+      "score": 0.09199299053292585,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.00029401761176697534,
-        "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0012443301230997295,
+        "blocker_ratio": 0.018571428571428572,
+        "staleness": 4.841065393518519e-7,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.000002074699266546576,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.005880352235339506,
-        "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.012443301230997295,
+        "blocker_ratio_norm": 0.14285714285714285,
+        "staleness_norm": 0.000009682130787037038,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.000020746992665465758,
         "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
+        "time_to_impact_explanation": "Leaf node, explicit estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
@@ -383,140 +538,17 @@
           "explanation": "Low risk - stable dependency structure"
         }
       },
-      "action": "Start work on this issue",
+      "action": "Work on agent-orchestrator-bmy first to unblock this",
       "reasons": [
+        "🔓 Unblocks 1 item(s): agent-orchestrator-alp",
         "✅ Currently unclaimed - available for work",
-        "🚨 High priority (P1) - prioritize this work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-rod",
-      "title": "FOUNDER REVIEW: Speed penalty thresholds",
-      "type": "task",
-      "status": "open",
-      "priority": 1,
-      "labels": null,
-      "score": 0.08889425439377996,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.000254128755150463,
-        "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0010773470022377273,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.00508257510300926,
-        "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.010773470022377274,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "✅ Currently unclaimed - available for work",
-        "🚨 High priority (P1) - prioritize this work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-50u",
-      "title": "Define structured handoff JSON schemas for agent-to-agent communication",
-      "type": "task",
-      "status": "open",
-      "priority": 1,
-      "labels": null,
-      "score": 0.08782687794598262,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.000006582645679012346,
-        "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.00006915611430056146,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.0001316529135802469,
-        "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0006915611430056146,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "✅ Currently unclaimed - available for work",
-        "🚨 High priority (P1) - prioritize this work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-52d",
-      "title": "Implement intent router to detect workflow triggers from messages",
-      "type": "task",
-      "status": "open",
-      "priority": 1,
-      "labels": null,
-      "score": 0.08266960465704595,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.000016469982388117283,
-        "priority_boost": 0.07500000000000001,
-        "time_to_impact": 0.026250000000000002,
-        "urgency": 0.0000705358389192945,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.0003293996477623457,
-        "priority_boost_norm": 0.75,
-        "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.0007053583891929449,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 60m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Work on agent-orchestrator-csf first to unblock this",
-      "reasons": [
-        "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by agent-orchestrator-csf - complete that first",
-        "🚨 High priority (P1) - prioritize this work"
+        "⏳ Blocked by agent-orchestrator-bmy - complete that first"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-alp"
       ],
       "blocked_by": [
-        "agent-orchestrator-csf"
+        "agent-orchestrator-bmy"
       ]
     }
   ],
@@ -533,6 +565,15 @@
         "agent-orchestrator-f15",
         "agent-orchestrator-isj",
         "agent-orchestrator-n44"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-14p",
+      "title": "Define create-a-bead workflow and task template",
+      "score": 0.9,
+      "reason": "Unblocks 1 items, high priority",
+      "unblocks_ids": [
+        "agent-orchestrator-bmy"
       ]
     },
     {
@@ -564,16 +605,6 @@
         "agent-orchestrator-1hd",
         "agent-orchestrator-3dg",
         "agent-orchestrator-avo"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-ave",
-      "title": "Morgan: Implement coordination budget monitoring (Phase 1)",
-      "score": 0.8339850002884626,
-      "reason": "Unblocks 2 items",
-      "unblocks_ids": [
-        "agent-orchestrator-etr",
-        "agent-orchestrator-xx7"
       ]
     }
   ],
@@ -646,30 +677,31 @@
   ],
   "project_health": {
     "counts": {
-      "total": 65,
-      "open": 43,
+      "total": 71,
+      "open": 49,
       "closed": 22,
-      "blocked": 19,
-      "actionable": 24,
+      "blocked": 22,
+      "actionable": 27,
       "by_status": {
         "closed": 22,
         "in_progress": 1,
-        "open": 42
+        "open": 48
       },
       "by_type": {
         "bug": 1,
-        "task": 64
+        "epic": 1,
+        "task": 69
       },
       "by_priority": {
-        "1": 16,
-        "2": 32,
-        "3": 17
+        "1": 20,
+        "2": 33,
+        "3": 18
       }
     },
     "graph": {
-      "node_count": 65,
-      "edge_count": 22,
-      "density": 0.005288461538461539,
+      "node_count": 71,
+      "edge_count": 25,
+      "density": 0.005030181086519115,
       "has_cycles": false,
       "phase2_ready": false
     },
