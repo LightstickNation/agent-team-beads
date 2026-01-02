@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**388** total issues | **73%** complete | **88** ready to work | **17** blocked
+**389** total issues | **73%** complete | **89** ready to work | **17** blocked
 
 ## 🎯 Top Priorities
 
@@ -41,7 +41,7 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.001 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 388 issues with 98 dependencies
+- **Graph Size:** 389 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -50,22 +50,22 @@ Low-effort items that clear the path forward:
 
 - **agent-orchestrator-ngs**: Team Maturity: Development Best Practices (unblocks 15)
   - *Unblocks 15 items*
+- **agent-orchestrator-1551**: Beads viewer auto-sync hook
+  - *Low complexity, high priority*
 - **agent-orchestrator-17t4**: Dashboard UI design - aesthetics-first approach for agent interface
   - *Low complexity, high priority*
 - **agent-orchestrator-1iz9**: Jordan: Research agentic team orchestration - who leads this field? Alt lenses for 1-human-many-agents dynamic
   - *Low complexity, high priority*
 - **agent-orchestrator-1sfg**: Document memory system thoroughly - origin, value, architecture - then Rowan reviews vs industry
   - *Low complexity, high priority*
-- **agent-orchestrator-4g9f**: Accessibility Integration - Phase 1: Templates, Standards, Gates
-  - *Low complexity, high priority*
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 30 | P1: 104 | P2: 179 | P3: 61 | P4: 14
+**By Priority:** P0: 30 | P1: 105 | P2: 179 | P3: 61 | P4: 14
 
-**By Type:** bug: 8 | chore: 9 | epic: 6 | feature: 7 | task: 358
+**By Type:** bug: 8 | chore: 9 | epic: 6 | feature: 7 | task: 359
 
 ---
 
-*Generated Jan 1, 2026 at 10:29 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 1, 2026 at 10:32 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
