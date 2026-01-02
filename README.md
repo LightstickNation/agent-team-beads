@@ -2,34 +2,33 @@
 
 ## 📊 Executive Summary
 
-**321** total issues | **69%** complete | **76** ready to work | **23** blocked
+**388** total issues | **73%** complete | **88** ready to work | **17** blocked
 
 ## 🎯 Top Priorities
 
 The graph analysis identified these as the highest-impact items to work on:
 
 ### 1. Team Maturity: Development Best Practices
-**ID:** `agent-orchestrator-ngs` | **Impact Score:** 0.38 | **Unblocks:** 21 issues
+**ID:** `agent-orchestrator-ngs` | **Impact Score:** 0.36 | **Unblocks:** 15 issues
 
 **Why this matters:**
-- 🎯 Completing this unblocks 21 downstream issues (agent-orchestrator-21w, agent-orchestrator-485, +19 more)
-- 📅 Last updated 9 days ago
+- 🎯 Completing this unblocks 15 downstream issues (agent-orchestrator-21w, agent-orchestrator-4do, +13 more)
 - ✅ Currently unclaimed - available for work
 
 ### 2. Evaluate cass (Coding Agent Session Search) for conversation persistence
 **ID:** `agent-orchestrator-fn0` | **Impact Score:** 0.15
 
 **Why this matters:**
-- 📅 Last updated 9 days ago
+- 📅 Last updated 10 days ago
 - ✅ Currently unclaimed - available for work
 - ⏳ Blocked by 2 items - need to clear dependencies
 
-### 3. task
-**ID:** `agent-orchestrator-gmyv` | **Impact Score:** 0.14
+### 3. Phase 4: Drop database system_prompt column
+**ID:** `agent-orchestrator-twh` | **Impact Score:** 0.12
 
 **Why this matters:**
+- 📅 Last updated 11 days ago
 - ✅ Currently unclaimed - available for work
-- 🚨 High priority (P0) - prioritize this work
 
 ## 🚧 Critical Bottlenecks
 
@@ -37,36 +36,36 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
-| `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **21** issues | Ready |
+| `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **15** issues | Ready |
 
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.001 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 321 issues with 102 dependencies
+- **Graph Size:** 388 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
 
 Low-effort items that clear the path forward:
 
-- **agent-orchestrator-ngs**: Team Maturity: Development Best Practices (unblocks 21)
-  - *Unblocks 21 items*
-- **agent-orchestrator-3ra**: Automated integration verification hook for beads close
+- **agent-orchestrator-ngs**: Team Maturity: Development Best Practices (unblocks 15)
+  - *Unblocks 15 items*
+- **agent-orchestrator-17t4**: Dashboard UI design - aesthetics-first approach for agent interface
   - *Low complexity, high priority*
-- **agent-orchestrator-64uy**: impl
+- **agent-orchestrator-1iz9**: Jordan: Research agentic team orchestration - who leads this field? Alt lenses for 1-human-many-agents dynamic
   - *Low complexity, high priority*
-- **agent-orchestrator-6x99**: Forward-promise enforcement hook
+- **agent-orchestrator-1sfg**: Document memory system thoroughly - origin, value, architecture - then Rowan reviews vs industry
   - *Low complexity, high priority*
-- **agent-orchestrator-b1f**: Discord long message bug - messages not pasting to terminal
+- **agent-orchestrator-4g9f**: Accessibility Integration - Phase 1: Templates, Standards, Gates
   - *Low complexity, high priority*
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 27 | P1: 84 | P2: 137 | P3: 59 | P4: 14
+**By Priority:** P0: 30 | P1: 104 | P2: 179 | P3: 61 | P4: 14
 
-**By Type:** bug: 6 | chore: 8 | epic: 4 | feature: 6 | task: 297
+**By Type:** bug: 8 | chore: 9 | epic: 6 | feature: 7 | task: 358
 
 ---
 
-*Generated Dec 31, 2025 at 4:55 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 1, 2026 at 10:29 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
