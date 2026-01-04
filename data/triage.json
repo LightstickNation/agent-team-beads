@@ -1,45 +1,44 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-01-01T22:32:52.948865-05:00",
+    "generated_at": "2026-01-04T23:49:15.559272Z",
     "phase2_ready": false,
-    "issue_count": 389,
+    "issue_count": 437,
     "compute_time_ms": 0
   },
   "quick_ref": {
-    "open_count": 106,
-    "actionable_count": 89,
-    "blocked_count": 17,
+    "open_count": 122,
+    "actionable_count": 109,
+    "blocked_count": 13,
     "in_progress_count": 0,
     "top_picks": [
       {
         "id": "agent-orchestrator-ngs",
         "title": "Team Maturity: Development Best Practices",
-        "score": 0.36317588917858845,
+        "score": 0.36514882274832333,
         "reasons": [
-          "🎯 Completing this unblocks 15 downstream issues (agent-orchestrator-21w, agent-orchestrator-4do, +13 more)",
+          "🎯 Completing this unblocks 13 downstream issues (agent-orchestrator-21w, agent-orchestrator-4do, +11 more)",
           "✅ Currently unclaimed - available for work"
         ],
-        "unblocks": 15
+        "unblocks": 13
       },
       {
-        "id": "agent-orchestrator-fn0",
-        "title": "Evaluate cass (Coding Agent Session Search) for conversation persistence",
-        "score": 0.1547369665510877,
+        "id": "agent-orchestrator-q2z4",
+        "title": "Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks",
+        "score": 0.1750474360537481,
         "reasons": [
-          "📅 Last updated 10 days ago",
           "✅ Currently unclaimed - available for work",
-          "⏳ Blocked by 2 items - need to clear dependencies"
+          "🚨 High priority (P1) - prioritize this work"
         ],
         "unblocks": 0
       },
       {
-        "id": "agent-orchestrator-twh",
-        "title": "Phase 4: Drop database system_prompt column",
-        "score": 0.11828016223750967,
+        "id": "agent-orchestrator-17t4",
+        "title": "Dashboard UI design - aesthetics-first approach for agent interface",
+        "score": 0.17204640612205432,
         "reasons": [
-          "📅 Last updated 11 days ago",
-          "✅ Currently unclaimed - available for work"
+          "✅ Currently unclaimed - available for work",
+          "🚨 High priority (P1) - prioritize this work"
         ],
         "unblocks": 0
       }
@@ -53,43 +52,48 @@
       "status": "open",
       "priority": 2,
       "labels": [
+        "effort:epic",
+        "impact:critical",
+        "learning:major",
+        "strategic:core",
         "tier:complex",
+        "tokens:major-savings",
         "type:meta",
         "value:critical"
       ],
-      "score": 0.36317588917858845,
+      "score": 0.36514882274832333,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.08666666666666667,
-        "staleness": 0.00037373694149305556,
+        "staleness": 0.005114913839776235,
         "priority_boost": 0.05,
         "time_to_impact": 0,
         "urgency": 0.1,
-        "risk": 0.013754760131356104,
+        "risk": 0.011334681550408095,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0.6666666666666666,
-        "staleness_norm": 0.007474738829861111,
+        "staleness_norm": 0.1022982767955247,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0,
         "urgency_norm": 1,
-        "risk_norm": 0.13754760131356103,
+        "risk_norm": 0.11334681550408095,
         "time_to_impact_explanation": "Leaf node, explicit estimate 1200m",
-        "urgency_explanation": "has 'value:critical' label",
+        "urgency_explanation": "has 'impact:critical' label",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.3918253377118701,
+          "activity_churn": 0.31115605168026983,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.13754760131356103,
+          "composite_risk": 0.11334681550408095,
           "explanation": "Low risk - stable dependency structure"
         }
       },
       "action": "Start work on this issue",
       "reasons": [
-        "🎯 Completing this unblocks 15 downstream issues (agent-orchestrator-21w, agent-orchestrator-4do, +13 more)",
+        "🎯 Completing this unblocks 13 downstream issues (agent-orchestrator-21w, agent-orchestrator-4do, +11 more)",
         "✅ Currently unclaimed - available for work"
       ],
       "unblocks_ids": [
@@ -101,65 +105,309 @@
         "agent-orchestrator-6ib",
         "agent-orchestrator-6t5",
         "agent-orchestrator-9ud",
-        "agent-orchestrator-e5u",
+        "agent-orchestrator-bst",
         "agent-orchestrator-g41",
         "agent-orchestrator-gu9",
-        "agent-orchestrator-nrt",
         "agent-orchestrator-q0g",
-        "agent-orchestrator-snp",
-        "agent-orchestrator-sz7"
+        "agent-orchestrator-snp"
       ]
     },
     {
-      "id": "agent-orchestrator-fn0",
-      "title": "Evaluate cass (Coding Agent Session Search) for conversation persistence",
+      "id": "agent-orchestrator-q2z4",
+      "title": "Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks",
       "type": "task",
       "status": "open",
-      "priority": 2,
+      "priority": 1,
       "labels": [
-        "tier:standard",
-        "type:research",
-        "value:critical"
+        "effort:large",
+        "impact:critical",
+        "learning:moderate",
+        "premature",
+        "project:altered-carbon",
+        "strategic:core",
+        "tokens:major-savings"
       ],
-      "score": 0.1547369665510877,
+      "score": 0.1750474360537481,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.017668228128722995,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.024375,
+        "staleness": 0.010188160063233025,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
-        "risk": 0.014272727272727274,
+        "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.35336456257445986,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.24375,
+        "staleness_norm": 0.2037632012646605,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
-        "risk_norm": 0.14272727272727273,
-        "time_to_impact_explanation": "Leaf node, explicit estimate 90m",
-        "urgency_explanation": "has 'value:critical' label",
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "urgency_explanation": "has 'impact:critical' label",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
-          "fan_variance": 0.4090909090909091,
+          "fan_variance": 0,
           "activity_churn": 0,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.14272727272727273,
+          "composite_risk": 0.020000000000000004,
           "explanation": "Low risk - stable dependency structure"
         }
       },
-      "action": "Work on agent-orchestrator-ngs first to unblock this",
+      "action": "Start work on this issue",
       "reasons": [
-        "📅 Last updated 10 days ago",
         "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by 2 items - need to clear dependencies"
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-17t4",
+      "title": "Dashboard UI design - aesthetics-first approach for agent interface",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "blocked-by:tlq9",
+        "effort:large",
+        "impact:critical",
+        "learning:major",
+        "premature",
+        "project:jarvis-mode",
+        "strategic:core",
+        "tokens:moderate-savings"
       ],
-      "blocked_by": [
-        "agent-orchestrator-ngs",
-        "agent-orchestrator-sz7"
+      "score": 0.17204640612205432,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.004890944381462192,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.1,
+        "risk": 0.0037665922327193646,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.09781888762924383,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 1,
+        "risk_norm": 0.037665922327193645,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "urgency_explanation": "has 'impact:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.058886407757312145,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.037665922327193645,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-tlq9",
+      "title": "Quinn Interview: Dashboard Vision - clarify founder's mental model for agent dashboard before design work",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "effort:quick",
+        "impact:critical",
+        "learning:moderate",
+        "premature",
+        "project:jarvis-mode",
+        "strategic:core",
+        "tokens:neutral"
+      ],
+      "score": 0.17054536705085166,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.004891608295119599,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.1,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.09783216590239198,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 1,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "urgency_explanation": "has 'impact:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-qdhs",
+      "title": "Elite Team Principles Implementation",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "effort:epic",
+        "impact:critical",
+        "learning:major",
+        "strategic:core",
+        "tokens:major-savings"
+      ],
+      "score": 0.15512620054080342,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.011751412400945217,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.1,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.23502824801890432,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 1,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "urgency_explanation": "has 'impact:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "✅ Currently unclaimed - available for work"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-w5lq",
+      "title": "UI Vision: Living founder dashboard - visualize all work in progress (webs, balls, nested issues)",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "effort:epic",
+        "impact:critical",
+        "learning:major",
+        "strategic:core",
+        "tokens:major-savings"
+      ],
+      "score": 0.149890652236983,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.005551656431346451,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.1,
+        "risk": 0.00204028737686888,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.11103312862692902,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 1,
+        "risk_norm": 0.0204028737686888,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "urgency_explanation": "has 'impact:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.001342912562295989,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.0204028737686888,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "✅ Currently unclaimed - available for work"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-48cw",
+      "title": "Intelligence-to-Action Initiative - implement Rowan's proposed funnel (CAPTURE → TRIAGE → ASSESS → DECIDE → TRACK) with 24h triage SLA. See insights/ROWAN-intelligence-to-action-synthesis.md",
+      "type": "epic",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "effort:epic",
+        "impact:critical",
+        "learning:major",
+        "strategic:core",
+        "tokens:major-savings"
+      ],
+      "score": 0.1493072426754456,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.0049055796181712965,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.1,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.09811159236342593,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 1,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "urgency_explanation": "has 'impact:critical' label",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "✅ Currently unclaimed - available for work"
       ]
     },
     {
@@ -169,43 +417,48 @@
       "status": "open",
       "priority": 2,
       "labels": [
+        "effort:quick",
+        "impact:low",
+        "learning:minimal",
+        "strategic:cleanup",
         "tier:micro",
+        "tokens:neutral",
         "type:chore",
         "value:low"
       ],
-      "score": 0.11828016223750967,
+      "score": 0.12501583443400216,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.018395817110108025,
+        "staleness": 0.023136994008391202,
         "priority_boost": 0.05,
         "time_to_impact": 0.028125,
-        "urgency": 0.04022496112608429,
-        "risk": 0.0024073538079366977,
+        "urgency": 0.043489309674035685,
+        "risk": 0.002326148592869786,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.36791634220216046,
+        "staleness_norm": 0.462739880167824,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.28125,
-        "urgency_norm": 0.4022496112608429,
-        "risk_norm": 0.024073538079366973,
+        "urgency_norm": 0.4348930967403568,
+        "risk_norm": 0.02326148592869786,
         "time_to_impact_explanation": "Leaf node, explicit estimate 30m",
-        "urgency_explanation": "moderate time pressure",
+        "urgency_explanation": "aging (14 days)",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.01357846026455657,
+          "activity_churn": 0.01087161976232619,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.024073538079366973,
+          "composite_risk": 0.02326148592869786,
           "explanation": "Low risk - stable dependency structure"
         }
       },
       "action": "Start work on this issue",
       "reasons": [
-        "📅 Last updated 11 days ago",
+        "📅 Last updated 13 days ago",
         "✅ Currently unclaimed - available for work"
       ]
     },
@@ -216,43 +469,52 @@
       "status": "open",
       "priority": 2,
       "labels": [
+        "effort:medium",
+        "effort:quick",
+        "impact:high",
+        "impact:medium",
+        "learning:minimal",
+        "strategic:core",
+        "strategic:tactical",
         "tier:standard",
+        "tokens:minor-savings",
+        "tokens:neutral",
         "type:impl",
         "value:high"
       ],
-      "score": 0.11711645686141278,
+      "score": 0.12381520523637625,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.01830657355011574,
+        "staleness": 0.02304775044839892,
         "priority_boost": 0.05,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.03958873774140675,
-        "risk": 0.003638755604257266,
+        "urgency": 0.04306555141698917,
+        "risk": 0.0033016454715251416,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.3661314710023148,
+        "staleness_norm": 0.4609550089679784,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.39588737741406743,
-        "risk_norm": 0.03638755604257266,
+        "urgency_norm": 0.4306555141698917,
+        "risk_norm": 0.033016454715251414,
         "time_to_impact_explanation": "Leaf node, explicit estimate 60m",
         "urgency_explanation": "moderate time pressure",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.054625186808575525,
+          "activity_churn": 0.04338818238417138,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.03638755604257266,
+          "composite_risk": 0.033016454715251414,
           "explanation": "Low risk - stable dependency structure"
         }
       },
       "action": "Start work on this issue",
       "reasons": [
-        "📅 Last updated 10 days ago",
+        "📅 Last updated 13 days ago",
         "✅ Currently unclaimed - available for work"
       ]
     },
@@ -263,286 +525,48 @@
       "status": "open",
       "priority": 2,
       "labels": [
+        "effort:medium",
+        "impact:high",
+        "learning:moderate",
+        "strategic:core",
         "tier:standard",
+        "tokens:moderate-savings",
         "type:meta",
         "value:medium"
       ],
-      "score": 0.11415950030660414,
+      "score": 0.12081257777388105,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.018396207431751545,
+        "staleness": 0.023137384330034722,
         "priority_boost": 0.05,
         "time_to_impact": 0.0225,
-        "urgency": 0.039735595840936284,
-        "risk": 0.003673491205669984,
+        "urgency": 0.04316336664005165,
+        "risk": 0.0033316934697736906,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.36792414863503087,
+        "staleness_norm": 0.46274768660069443,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.22499999999999998,
-        "urgency_norm": 0.39735595840936283,
-        "risk_norm": 0.03673491205669984,
+        "urgency_norm": 0.4316336664005165,
+        "risk_norm": 0.0333169346977369,
         "time_to_impact_explanation": "Leaf node, explicit estimate 120m",
         "urgency_explanation": "moderate time pressure",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.055783040188999475,
+          "activity_churn": 0.044389782325789676,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.03673491205669984,
+          "composite_risk": 0.0333169346977369,
           "explanation": "Low risk - stable dependency structure"
         }
       },
       "action": "Start work on this issue",
       "reasons": [
-        "📅 Last updated 11 days ago",
-        "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-sz7",
-      "title": "Research conversation persistence options (NATS JetStream vs alternatives)",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": [
-        "tier:standard",
-        "type:research",
-        "value:high"
-      ],
-      "score": 0.11414770788806208,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0.008666666666666666,
-        "staleness": 0.017667684381500775,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.024375,
-        "urgency": 0.03956986962756403,
-        "risk": 0.0024054141843461423,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.06666666666666667,
-        "staleness_norm": 0.35335368763001546,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.24375,
-        "urgency_norm": 0.39569869627564025,
-        "risk_norm": 0.024054141843461423,
-        "time_to_impact_explanation": "Leaf node, explicit estimate 90m",
-        "urgency_explanation": "moderate time pressure",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0.013513806144871403,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.024054141843461423,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Work on agent-orchestrator-ngs first to unblock this",
-      "reasons": [
-        "📅 Last updated 10 days ago",
-        "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by agent-orchestrator-ngs - complete that first"
-      ],
-      "blocked_by": [
-        "agent-orchestrator-ngs"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-r80",
-      "title": "Research Claude  plan resource limits for parallel agents",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": [
-        "tier:standard",
-        "type:research",
-        "value:medium"
-      ],
-      "score": 0.11339608396486672,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.01839585313620756,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.0225,
-        "urgency": 0.040154912139327315,
-        "risk": 0.0023563923301907035,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.3679170627241512,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.22499999999999998,
-        "urgency_norm": 0.4015491213932731,
-        "risk_norm": 0.02356392330190703,
-        "time_to_impact_explanation": "Leaf node, explicit estimate 120m",
-        "urgency_explanation": "moderate time pressure",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0.011879744339690091,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.02356392330190703,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "📅 Last updated 11 days ago",
-        "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-6ib",
-      "title": "Define code review process and CODEOWNERS",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": [
-        "tier:standard",
-        "type:planning",
-        "value:high"
-      ],
-      "score": 0.10738666879663658,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.01828704236369599,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.024375,
-        "urgency": 0.03957129363209974,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.36574084727391976,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.24375,
-        "urgency_norm": 0.39571293632099735,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, explicit estimate 90m",
-        "urgency_explanation": "moderate time pressure",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Work on agent-orchestrator-ngs first to unblock this",
-      "reasons": [
-        "📅 Last updated 10 days ago",
-        "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by agent-orchestrator-ngs - complete that first"
-      ],
-      "blocked_by": [
-        "agent-orchestrator-ngs"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-snp",
-      "title": "Implement pre-commit hooks (ast-grep linter)",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": [
-        "tier:standard",
-        "type:impl",
-        "value:high"
-      ],
-      "score": 0.10643885988038104,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.01766932831655093,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.024375,
-        "urgency": 0.03900424653392536,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.35338656633101856,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.24375,
-        "urgency_norm": 0.3900424653392536,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, explicit estimate 90m",
-        "urgency_explanation": "moderate time pressure",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Work on agent-orchestrator-ngs first to unblock this",
-      "reasons": [
-        "📅 Last updated 10 days ago",
-        "✅ Currently unclaimed - available for work",
-        "⏳ Blocked by agent-orchestrator-ngs - complete that first"
-      ],
-      "blocked_by": [
-        "agent-orchestrator-ngs"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-i8z",
-      "title": "Investigate tmux terminal truncation in Claude Code",
-      "type": "bug",
-      "status": "open",
-      "priority": 2,
-      "labels": null,
-      "score": 0.10371275443061762,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.014197245359857252,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.020625,
-        "urgency": 0.03519275985263406,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.28394490719714505,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.20625,
-        "urgency_norm": 0.3519275985263406,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 150m",
-        "urgency_explanation": "moderate time pressure",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "📅 Last updated 8 days ago",
+        "📅 Last updated 13 days ago",
         "✅ Currently unclaimed - available for work"
       ]
     }
@@ -551,8 +575,8 @@
     {
       "id": "agent-orchestrator-ngs",
       "title": "Team Maturity: Development Best Practices",
-      "score": 1.6,
-      "reason": "Unblocks 15 items",
+      "score": 1.5229419688230417,
+      "reason": "Unblocks 13 items",
       "unblocks_ids": [
         "agent-orchestrator-21w",
         "agent-orchestrator-4do",
@@ -562,20 +586,12 @@
         "agent-orchestrator-6ib",
         "agent-orchestrator-6t5",
         "agent-orchestrator-9ud",
-        "agent-orchestrator-e5u",
+        "agent-orchestrator-bst",
         "agent-orchestrator-g41",
         "agent-orchestrator-gu9",
-        "agent-orchestrator-nrt",
         "agent-orchestrator-q0g",
-        "agent-orchestrator-snp",
-        "agent-orchestrator-sz7"
+        "agent-orchestrator-snp"
       ]
-    },
-    {
-      "id": "agent-orchestrator-1551",
-      "title": "Beads viewer auto-sync hook",
-      "score": 0.5,
-      "reason": "Low complexity, high priority"
     },
     {
       "id": "agent-orchestrator-17t4",
@@ -584,14 +600,20 @@
       "reason": "Low complexity, high priority"
     },
     {
-      "id": "agent-orchestrator-1iz9",
-      "title": "Jordan: Research agentic team orchestration - who leads this field? Alt lenses for 1-human-many-agents dynamic",
+      "id": "agent-orchestrator-1sfg",
+      "title": "Document memory system thoroughly - origin, value, architecture - then Rowan reviews vs industry",
       "score": 0.5,
       "reason": "Low complexity, high priority"
     },
     {
-      "id": "agent-orchestrator-1sfg",
-      "title": "Document memory system thoroughly - origin, value, architecture - then Rowan reviews vs industry",
+      "id": "agent-orchestrator-4g9f",
+      "title": "Accessibility Integration - Phase 1: Templates, Standards, Gates",
+      "score": 0.5,
+      "reason": "Low complexity, high priority"
+    },
+    {
+      "id": "agent-orchestrator-4stf",
+      "title": "Jen: Deep familiarization with campstayville.com UI - audit actual components, animations, patterns",
       "score": 0.5,
       "reason": "Low complexity, high priority"
     }
@@ -600,7 +622,7 @@
     {
       "id": "agent-orchestrator-ngs",
       "title": "Team Maturity: Development Best Practices",
-      "unblocks_count": 15,
+      "unblocks_count": 13,
       "unblocks_ids": [
         "agent-orchestrator-21w",
         "agent-orchestrator-4do",
@@ -610,58 +632,56 @@
         "agent-orchestrator-6ib",
         "agent-orchestrator-6t5",
         "agent-orchestrator-9ud",
-        "agent-orchestrator-e5u",
+        "agent-orchestrator-bst",
         "agent-orchestrator-g41",
         "agent-orchestrator-gu9",
-        "agent-orchestrator-nrt",
         "agent-orchestrator-q0g",
-        "agent-orchestrator-snp",
-        "agent-orchestrator-sz7"
+        "agent-orchestrator-snp"
       ],
       "actionable": true
     }
   ],
   "project_health": {
     "counts": {
-      "total": 389,
-      "open": 106,
-      "closed": 283,
-      "blocked": 17,
-      "actionable": 89,
+      "total": 437,
+      "open": 122,
+      "closed": 315,
+      "blocked": 13,
+      "actionable": 109,
       "by_status": {
-        "closed": 283,
-        "open": 106
+        "closed": 315,
+        "open": 122
       },
       "by_type": {
         "bug": 8,
-        "chore": 9,
+        "chore": 10,
         "epic": 6,
         "feature": 7,
-        "task": 359
+        "task": 406
       },
       "by_priority": {
         "0": 30,
-        "1": 105,
-        "2": 179,
-        "3": 61,
+        "1": 117,
+        "2": 208,
+        "3": 68,
         "4": 14
       }
     },
     "graph": {
-      "node_count": 389,
+      "node_count": 437,
       "edge_count": 98,
-      "density": 0.0006492990220761667,
+      "density": 0.0005143492956563726,
       "has_cycles": false,
       "phase2_ready": false
     },
     "velocity": {
-      "closed_last_7_days": 136,
-      "closed_last_30_days": 283,
-      "avg_days_to_close": 1.4100756073711311,
+      "closed_last_7_days": 123,
+      "closed_last_30_days": 315,
+      "avg_days_to_close": 1.6926238534694664,
       "weekly": [
         {
           "week_start": "2025-12-29T00:00:00Z",
-          "closed": 90
+          "closed": 122
         },
         {
           "week_start": "2025-12-22T00:00:00Z",

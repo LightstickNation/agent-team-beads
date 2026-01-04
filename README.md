@@ -2,33 +2,32 @@
 
 ## 📊 Executive Summary
 
-**389** total issues | **73%** complete | **89** ready to work | **17** blocked
+**437** total issues | **72%** complete | **109** ready to work | **13** blocked
 
 ## 🎯 Top Priorities
 
 The graph analysis identified these as the highest-impact items to work on:
 
 ### 1. Team Maturity: Development Best Practices
-**ID:** `agent-orchestrator-ngs` | **Impact Score:** 0.36 | **Unblocks:** 15 issues
+**ID:** `agent-orchestrator-ngs` | **Impact Score:** 0.37 | **Unblocks:** 13 issues
 
 **Why this matters:**
-- 🎯 Completing this unblocks 15 downstream issues (agent-orchestrator-21w, agent-orchestrator-4do, +13 more)
+- 🎯 Completing this unblocks 13 downstream issues (agent-orchestrator-21w, agent-orchestrator-4do, +11 more)
 - ✅ Currently unclaimed - available for work
 
-### 2. Evaluate cass (Coding Agent Session Search) for conversation persistence
-**ID:** `agent-orchestrator-fn0` | **Impact Score:** 0.15
+### 2. Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks
+**ID:** `agent-orchestrator-q2z4` | **Impact Score:** 0.18
 
 **Why this matters:**
-- 📅 Last updated 10 days ago
 - ✅ Currently unclaimed - available for work
-- ⏳ Blocked by 2 items - need to clear dependencies
+- 🚨 High priority (P1) - prioritize this work
 
-### 3. Phase 4: Drop database system_prompt column
-**ID:** `agent-orchestrator-twh` | **Impact Score:** 0.12
+### 3. Dashboard UI design - aesthetics-first approach for agent interface
+**ID:** `agent-orchestrator-17t4` | **Impact Score:** 0.17
 
 **Why this matters:**
-- 📅 Last updated 11 days ago
 - ✅ Currently unclaimed - available for work
+- 🚨 High priority (P1) - prioritize this work
 
 ## 🚧 Critical Bottlenecks
 
@@ -36,36 +35,36 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
-| `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **15** issues | Ready |
+| `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **13** issues | Ready |
 
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.001 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 389 issues with 98 dependencies
+- **Graph Size:** 437 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
 
 Low-effort items that clear the path forward:
 
-- **agent-orchestrator-ngs**: Team Maturity: Development Best Practices (unblocks 15)
-  - *Unblocks 15 items*
-- **agent-orchestrator-1551**: Beads viewer auto-sync hook
-  - *Low complexity, high priority*
+- **agent-orchestrator-ngs**: Team Maturity: Development Best Practices (unblocks 13)
+  - *Unblocks 13 items*
 - **agent-orchestrator-17t4**: Dashboard UI design - aesthetics-first approach for agent interface
   - *Low complexity, high priority*
-- **agent-orchestrator-1iz9**: Jordan: Research agentic team orchestration - who leads this field? Alt lenses for 1-human-many-agents dynamic
-  - *Low complexity, high priority*
 - **agent-orchestrator-1sfg**: Document memory system thoroughly - origin, value, architecture - then Rowan reviews vs industry
+  - *Low complexity, high priority*
+- **agent-orchestrator-4g9f**: Accessibility Integration - Phase 1: Templates, Standards, Gates
+  - *Low complexity, high priority*
+- **agent-orchestrator-4stf**: Jen: Deep familiarization with campstayville.com UI - audit actual components, animations, patterns
   - *Low complexity, high priority*
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 30 | P1: 105 | P2: 179 | P3: 61 | P4: 14
+**By Priority:** P0: 30 | P1: 117 | P2: 208 | P3: 68 | P4: 14
 
-**By Type:** bug: 8 | chore: 9 | epic: 6 | feature: 7 | task: 359
+**By Type:** bug: 8 | chore: 10 | epic: 6 | feature: 7 | task: 406
 
 ---
 
-*Generated Jan 1, 2026 at 10:32 PM EST by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 4, 2026 at 11:49 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
