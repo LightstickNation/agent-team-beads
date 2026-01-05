@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**441** total issues | **86%** complete | **56** ready to work | **6** blocked
+**442** total issues | **86%** complete | **56** ready to work | **6** blocked
 
 ## 🎯 Top Priorities
 
@@ -40,7 +40,7 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.001 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 441 issues with 98 dependencies
+- **Graph Size:** 442 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -60,11 +60,11 @@ Low-effort items that clear the path forward:
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 30 | P1: 118 | P2: 211 | P3: 68 | P4: 14
+**By Priority:** P0: 30 | P1: 119 | P2: 211 | P3: 68 | P4: 14
 
-**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 407
+**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 408
 
 ---
 
-*Generated Jan 5, 2026 at 11:20 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 5, 2026 at 11:28 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
