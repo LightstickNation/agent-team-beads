@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**440** total issues | **73%** complete | **106** ready to work | **13** blocked
+**440** total issues | **73%** complete | **105** ready to work | **13** blocked
 
 ## 🎯 Top Priorities
 
@@ -51,11 +51,11 @@ Low-effort items that clear the path forward:
   - *Unblocks 13 items*
 - **agent-orchestrator-17t4**: Dashboard UI design - aesthetics-first approach for agent interface
   - *Low complexity, high priority*
-- **agent-orchestrator-1sfg**: Document memory system thoroughly - origin, value, architecture - then Rowan reviews vs industry
-  - *Low complexity, high priority*
 - **agent-orchestrator-4g9f**: Accessibility Integration - Phase 1: Templates, Standards, Gates
   - *Low complexity, high priority*
 - **agent-orchestrator-4stf**: Jen: Deep familiarization with campstayville.com UI - audit actual components, animations, patterns
+  - *Low complexity, high priority*
+- **agent-orchestrator-7nso**: Beads UI auto-sync - viewer shows stale data after CLI updates
   - *Low complexity, high priority*
 
 ## 📋 Status Summary
@@ -66,5 +66,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 5, 2026 at 12:59 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 5, 2026 at 1:02 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
