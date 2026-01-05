@@ -1,10 +1,10 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-01-04T23:58:13.25432Z",
+    "generated_at": "2026-01-05T00:18:43.547927Z",
     "phase2_ready": false,
-    "issue_count": 438,
-    "compute_time_ms": 0
+    "issue_count": 439,
+    "compute_time_ms": 1
   },
   "quick_ref": {
     "open_count": 122,
@@ -15,7 +15,7 @@
       {
         "id": "agent-orchestrator-ngs",
         "title": "Team Maturity: Development Best Practices",
-        "score": 0.36515406702290343,
+        "score": 0.3651660784712491,
         "reasons": [
           "🎯 Completing this unblocks 13 downstream issues (agent-orchestrator-21w, agent-orchestrator-4do, +11 more)",
           "✅ Currently unclaimed - available for work"
@@ -25,7 +25,7 @@
       {
         "id": "agent-orchestrator-q2z4",
         "title": "Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks",
-        "score": 0.1750562524270274,
+        "score": 0.17507642506525947,
         "reasons": [
           "✅ Currently unclaimed - available for work",
           "🚨 High priority (P1) - prioritize this work"
@@ -35,7 +35,7 @@
       {
         "id": "agent-orchestrator-17t4",
         "title": "Dashboard UI design - aesthetics-first approach for agent interface",
-        "score": 0.17205251175520095,
+        "score": 0.17206651864592748,
         "reasons": [
           "✅ Currently unclaimed - available for work",
           "🚨 High priority (P1) - prioritize this work"
@@ -61,33 +61,33 @@
         "type:meta",
         "value:critical"
       ],
-      "score": 0.36515406702290343,
+      "score": 0.3651660784712491,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.08666666666666667,
-        "staleness": 0.005125286043634259,
+        "staleness": 0.005149018559201389,
         "priority_boost": 0.05,
         "time_to_impact": 0,
         "urgency": 0.1,
-        "risk": 0.011330479081350216,
+        "risk": 0.011320877681483814,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0.6666666666666666,
-        "staleness_norm": 0.10250572087268518,
+        "staleness_norm": 0.10298037118402778,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0,
         "urgency_norm": 1,
-        "risk_norm": 0.11330479081350214,
+        "risk_norm": 0.11320877681483814,
         "time_to_impact_explanation": "Leaf node, explicit estimate 1200m",
         "urgency_explanation": "has 'impact:critical' label",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.3110159693783405,
+          "activity_churn": 0.3106959227161271,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.11330479081350214,
+          "composite_risk": 0.11320877681483814,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -127,12 +127,12 @@
         "strategic:core",
         "tokens:major-savings"
       ],
-      "score": 0.1750562524270274,
+      "score": 0.17507642506525947,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.010198532267091049,
+        "staleness": 0.01022226478265818,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
@@ -140,7 +140,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.20397064534182097,
+        "staleness_norm": 0.20444529565316358,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
@@ -179,33 +179,33 @@
         "strategic:core",
         "tokens:moderate-savings"
       ],
-      "score": 0.17205251175520095,
+      "score": 0.17206651864592748,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.004901316585320216,
+        "staleness": 0.004925049100887345,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
-        "risk": 0.0037634031266808826,
+        "risk": 0.003756149306086132,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.09802633170640432,
+        "staleness_norm": 0.0985009820177469,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
-        "risk_norm": 0.03763403126680882,
+        "risk_norm": 0.03756149306086132,
         "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "urgency_explanation": "has 'impact:critical' label",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.05878010422269608,
+          "activity_churn": 0.05853831020287105,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.03763403126680882,
+          "composite_risk": 0.03756149306086132,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -230,12 +230,12 @@
         "strategic:core",
         "tokens:neutral"
       ],
-      "score": 0.17055418342413098,
+      "score": 0.17057435606236307,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.004901980498977623,
+        "staleness": 0.0049257130145447525,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
@@ -243,7 +243,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.09803960997955247,
+        "staleness_norm": 0.09851426029089505,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
@@ -279,12 +279,12 @@
         "strategic:core",
         "tokens:major-savings"
       ],
-      "score": 0.15513501691408274,
+      "score": 0.15515518955231483,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.011761784604803241,
+        "staleness": 0.011785517120370372,
         "priority_boost": 0.05,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
@@ -292,7 +292,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.23523569209606482,
+        "staleness_norm": 0.23571034240740743,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
@@ -327,33 +327,33 @@
         "strategic:core",
         "tokens:major-savings"
       ],
-      "score": 0.14989940496472498,
+      "score": 0.1499194328625429,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.005562028635204476,
+        "staleness": 0.005585761150771605,
         "priority_boost": 0.05,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
-        "risk": 0.002040212499766106,
+        "risk": 0.002040042216925927,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.1112405727040895,
+        "staleness_norm": 0.11171522301543209,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
-        "risk_norm": 0.02040212499766106,
+        "risk_norm": 0.02040042216925927,
         "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "urgency_explanation": "has 'impact:critical' label",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.0013404166588701916,
+          "activity_churn": 0.0013347405641975577,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.02040212499766106,
+          "composite_risk": 0.02040042216925927,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -375,12 +375,12 @@
         "strategic:core",
         "tokens:major-savings"
       ],
-      "score": 0.14931605904872491,
+      "score": 0.14933623168695698,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.004915951822029321,
+        "staleness": 0.0049396843375964505,
         "priority_boost": 0.05,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
@@ -388,7 +388,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.09831903644058641,
+        "staleness_norm": 0.09879368675192901,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
@@ -426,33 +426,33 @@
         "type:chore",
         "value:low"
       ],
-      "score": 0.1250294478300795,
+      "score": 0.12506058044127974,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.023147366212249228,
+        "staleness": 0.02317109872781636,
         "priority_boost": 0.05,
         "time_to_impact": 0.028125,
-        "urgency": 0.043495095405248214,
-        "risk": 0.0023260064178901867,
+        "urgency": 0.043508314334147535,
+        "risk": 0.002325681574835793,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.4629473242449845,
+        "staleness_norm": 0.46342197455632717,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.28125,
-        "urgency_norm": 0.43495095405248213,
-        "risk_norm": 0.023260064178901866,
+        "urgency_norm": 0.43508314334147535,
+        "risk_norm": 0.02325681574835793,
         "time_to_impact_explanation": "Leaf node, explicit estimate 30m",
         "urgency_explanation": "aging (14 days)",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.010866880596339541,
+          "activity_churn": 0.010856052494526428,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.023260064178901866,
+          "composite_risk": 0.02325681574835793,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -482,33 +482,33 @@
         "type:impl",
         "value:high"
       ],
-      "score": 0.12382876187859528,
+      "score": 0.1238597648490097,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.023058122652256947,
+        "staleness": 0.023081855167824072,
         "priority_boost": 0.05,
         "time_to_impact": 0.026250000000000002,
-        "urgency": 0.04307171372138391,
-        "risk": 0.00330105995411832,
+        "urgency": 0.04308579302452773,
+        "risk": 0.003299722218247855,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.4611624530451389,
+        "staleness_norm": 0.46163710335648145,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.2625,
-        "urgency_norm": 0.43071713721383903,
-        "risk_norm": 0.0330105995411832,
+        "urgency_norm": 0.4308579302452773,
+        "risk_norm": 0.032997222182478546,
         "time_to_impact_explanation": "Leaf node, explicit estimate 60m",
         "urgency_explanation": "moderate time pressure",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.04336866513727731,
+          "activity_churn": 0.04332407394159514,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.0330105995411832,
+          "composite_risk": 0.032997222182478546,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -534,33 +534,33 @@
         "type:meta",
         "value:medium"
       ],
-      "score": 0.1208260526758421,
+      "score": 0.12085686887861445,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.02314775653389275,
+        "staleness": 0.023171489049459877,
         "priority_boost": 0.05,
         "time_to_impact": 0.0225,
-        "urgency": 0.043169442020854445,
-        "risk": 0.0033310987109493543,
+        "urgency": 0.04318332272562941,
+        "risk": 0.0033297398468100595,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.462955130677855,
+        "staleness_norm": 0.4634297809891975,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.22499999999999998,
-        "urgency_norm": 0.4316944202085444,
-        "risk_norm": 0.03331098710949354,
+        "urgency_norm": 0.431833227256294,
+        "risk_norm": 0.03329739846810059,
         "time_to_impact_explanation": "Leaf node, explicit estimate 120m",
         "urgency_explanation": "moderate time pressure",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.044369957031645126,
+          "activity_churn": 0.0443246615603353,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.03331098710949354,
+          "composite_risk": 0.03329739846810059,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -643,18 +643,18 @@
   ],
   "project_health": {
     "counts": {
-      "total": 438,
+      "total": 439,
       "open": 122,
-      "closed": 316,
+      "closed": 317,
       "blocked": 13,
       "actionable": 109,
       "by_status": {
-        "closed": 316,
+        "closed": 317,
         "open": 122
       },
       "by_type": {
         "bug": 8,
-        "chore": 11,
+        "chore": 12,
         "epic": 6,
         "feature": 7,
         "task": 406
@@ -662,26 +662,30 @@
       "by_priority": {
         "0": 30,
         "1": 117,
-        "2": 209,
+        "2": 210,
         "3": 68,
         "4": 14
       }
     },
     "graph": {
-      "node_count": 438,
+      "node_count": 439,
       "edge_count": 98,
-      "density": 0.0005120006687355673,
+      "density": 0.0005096680916570454,
       "has_cycles": false,
       "phase2_ready": false
     },
     "velocity": {
       "closed_last_7_days": 123,
-      "closed_last_30_days": 316,
-      "avg_days_to_close": 1.7103728101490348,
+      "closed_last_30_days": 317,
+      "avg_days_to_close": 1.7049797942722207,
       "weekly": [
         {
+          "week_start": "2026-01-05T00:00:00Z",
+          "closed": 0
+        },
+        {
           "week_start": "2025-12-29T00:00:00Z",
-          "closed": 123
+          "closed": 124
         },
         {
           "week_start": "2025-12-22T00:00:00Z",
@@ -705,10 +709,6 @@
         },
         {
           "week_start": "2025-11-17T00:00:00Z",
-          "closed": 0
-        },
-        {
-          "week_start": "2025-11-10T00:00:00Z",
           "closed": 0
         }
       ]
