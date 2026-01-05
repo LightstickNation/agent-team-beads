@@ -6,8 +6,9 @@
     "blocked": 13,
     "actionable": 103,
     "by_status": {
+      "blocked": 1,
       "closed": 324,
-      "open": 116
+      "open": 115
     },
     "by_type": {
       "bug": 8,
