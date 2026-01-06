@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**471** total issues | **89%** complete | **49** ready to work | **5** blocked
+**472** total issues | **89%** complete | **49** ready to work | **5** blocked
 
 ## 🎯 Top Priorities
 
@@ -40,7 +40,7 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 471 issues with 98 dependencies
+- **Graph Size:** 472 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -55,16 +55,16 @@ Low-effort items that clear the path forward:
   - *Low complexity, high priority*
 - **agent-orchestrator-3x2y**: Tier1: Bead lifecycle events + evidence links
   - *Low complexity, high priority*
-- **agent-orchestrator-djfr**: [impl] Scheduler spawns Atlas to write real morning brief
+- **agent-orchestrator-g14q**: Wire ephemeral Claude Code runs -> WORK_LOG events
   - *Low complexity, high priority*
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 38 | P1: 126 | P2: 222 | P3: 71 | P4: 14
+**By Priority:** P0: 38 | P1: 127 | P2: 222 | P3: 71 | P4: 14
 
-**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 437
+**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 438
 
 ---
 
-*Generated Jan 6, 2026 at 2:57 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 6, 2026 at 3:22 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
