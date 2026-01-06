@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**462** total issues | **86%** complete | **58** ready to work | **5** blocked
+**462** total issues | **87%** complete | **55** ready to work | **5** blocked
 
 ## 🎯 Top Priorities
 
@@ -66,5 +66,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 6, 2026 at 2:16 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 6, 2026 at 2:21 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
