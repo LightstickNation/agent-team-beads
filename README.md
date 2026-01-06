@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**462** total issues | **88%** complete | **51** ready to work | **5** blocked
+**462** total issues | **88%** complete | **50** ready to work | **5** blocked
 
 ## 🎯 Top Priorities
 
@@ -55,7 +55,7 @@ Low-effort items that clear the path forward:
   - *Low complexity, high priority*
 - **agent-orchestrator-3x2y**: Tier1: Bead lifecycle events + evidence links
   - *Low complexity, high priority*
-- **agent-orchestrator-4g9f**: Accessibility Integration - Phase 1: Templates, Standards, Gates
+- **agent-orchestrator-g14q**: Wire ephemeral Claude Code runs -> WORK_LOG events
   - *Low complexity, high priority*
 
 ## 📋 Status Summary
@@ -66,5 +66,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 6, 2026 at 2:30 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 6, 2026 at 2:31 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 

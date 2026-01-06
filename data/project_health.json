@@ -1,14 +1,14 @@
 {
   "counts": {
     "total": 462,
-    "open": 56,
-    "closed": 406,
+    "open": 55,
+    "closed": 407,
     "blocked": 5,
-    "actionable": 51,
+    "actionable": 50,
     "by_status": {
       "blocked": 1,
-      "closed": 406,
-      "open": 55
+      "closed": 407,
+      "open": 54
     },
     "by_type": {
       "bug": 8,
@@ -33,13 +33,13 @@
     "phase2_ready": false
   },
   "velocity": {
-    "closed_last_7_days": 191,
-    "closed_last_30_days": 406,
-    "avg_days_to_close": 2.574840192540281,
+    "closed_last_7_days": 192,
+    "closed_last_30_days": 407,
+    "avg_days_to_close": 2.5812686118147123,
     "weekly": [
       {
         "week_start": "2026-01-05T00:00:00Z",
-        "closed": 90
+        "closed": 91
       },
       {
         "week_start": "2025-12-29T00:00:00Z",
