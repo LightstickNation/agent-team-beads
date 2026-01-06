@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**457** total issues | **85%** complete | **63** ready to work | **6** blocked
+**462** total issues | **84%** complete | **67** ready to work | **6** blocked
 
 ## 🎯 Top Priorities
 
@@ -40,7 +40,7 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 457 issues with 98 dependencies
+- **Graph Size:** 462 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -51,20 +51,20 @@ Low-effort items that clear the path forward:
   - *Unblocks 6 items*
 - **agent-orchestrator-17t4**: Dashboard UI design - aesthetics-first approach for agent interface
   - *Low complexity, high priority*
+- **agent-orchestrator-3pux**: Tier1: Verification events (Parker PASS + evidence pointers)
+  - *Low complexity, high priority*
+- **agent-orchestrator-3x2y**: Tier1: Bead lifecycle events + evidence links
+  - *Low complexity, high priority*
 - **agent-orchestrator-4g9f**: Accessibility Integration - Phase 1: Templates, Standards, Gates
-  - *Low complexity, high priority*
-- **agent-orchestrator-4stf**: Jen: Deep familiarization with campstayville.com UI - audit actual components, animations, patterns
-  - *Low complexity, high priority*
-- **agent-orchestrator-7nso**: Beads UI auto-sync - viewer shows stale data after CLI updates
   - *Low complexity, high priority*
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 34 | P1: 120 | P2: 221 | P3: 68 | P4: 14
+**By Priority:** P0: 34 | P1: 125 | P2: 221 | P3: 68 | P4: 14
 
-**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 423
+**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 428
 
 ---
 
-*Generated Jan 5, 2026 at 5:33 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 6, 2026 at 1:38 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
