@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**469** total issues | **88%** complete | **49** ready to work | **5** blocked
+**470** total issues | **89%** complete | **49** ready to work | **5** blocked
 
 ## 🎯 Top Priorities
 
@@ -40,7 +40,7 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 469 issues with 98 dependencies
+- **Graph Size:** 470 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -55,16 +55,16 @@ Low-effort items that clear the path forward:
   - *Low complexity, high priority*
 - **agent-orchestrator-3x2y**: Tier1: Bead lifecycle events + evidence links
   - *Low complexity, high priority*
-- **agent-orchestrator-8900**: [impl] Morning brief improvements: JARVIS voice + UK timezone
+- **agent-orchestrator-4p5c**: [fix] Morning brief uses wrong bd flag (--state vs --status)
   - *Low complexity, high priority*
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 36 | P1: 126 | P2: 222 | P3: 71 | P4: 14
+**By Priority:** P0: 37 | P1: 126 | P2: 222 | P3: 71 | P4: 14
 
-**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 435
+**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 436
 
 ---
 
-*Generated Jan 6, 2026 at 2:44 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 6, 2026 at 2:48 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
