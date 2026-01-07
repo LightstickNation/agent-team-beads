@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**474** total issues | **88%** complete | **50** ready to work | **5** blocked
+**477** total issues | **88%** complete | **52** ready to work | **5** blocked
 
 ## 🎯 Top Priorities
 
@@ -41,7 +41,7 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 474 issues with 98 dependencies
+- **Graph Size:** 477 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -50,22 +50,22 @@ Low-effort items that clear the path forward:
 
 - **agent-orchestrator-ngs**: Team Maturity: Development Best Practices (unblocks 5)
   - *Unblocks 5 items*
+- **agent-orchestrator-0423**: research
+  - *Low complexity, high priority*
 - **agent-orchestrator-17t4**: Dashboard UI design - aesthetics-first approach for agent interface
   - *Low complexity, high priority*
 - **agent-orchestrator-3pux**: Tier1: Verification events (Parker PASS + evidence pointers)
   - *Low complexity, high priority*
 - **agent-orchestrator-3x2y**: Tier1: Bead lifecycle events + evidence links
   - *Low complexity, high priority*
-- **agent-orchestrator-g14q**: Wire ephemeral Claude Code runs -> WORK_LOG events
-  - *Low complexity, high priority*
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 38 | P1: 128 | P2: 223 | P3: 71 | P4: 14
+**By Priority:** P0: 38 | P1: 130 | P2: 224 | P3: 71 | P4: 14
 
-**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 440
+**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 443
 
 ---
 
-*Generated Jan 7, 2026 at 8:19 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 7, 2026 at 9:58 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
