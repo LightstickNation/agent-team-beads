@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**481** total issues | **88%** complete | **53** ready to work | **5** blocked
+**482** total issues | **88%** complete | **54** ready to work | **5** blocked
 
 ## 🎯 Top Priorities
 
@@ -19,7 +19,7 @@ The graph analysis identified these as the highest-impact items to work on:
 **ID:** `agent-orchestrator-q2z4` | **Impact Score:** 0.18
 
 **Why this matters:**
-- 📅 Last updated 9 days ago
+- 📅 Last updated 10 days ago
 - ✅ Currently unclaimed - available for work
 - 🚨 High priority (P1) - prioritize this work
 
@@ -41,7 +41,7 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 481 issues with 98 dependencies
+- **Graph Size:** 482 issues with 98 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -61,11 +61,11 @@ Low-effort items that clear the path forward:
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 39 | P1: 130 | P2: 227 | P3: 71 | P4: 14
+**By Priority:** P0: 39 | P1: 131 | P2: 227 | P3: 71 | P4: 14
 
-**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 447
+**By Type:** bug: 8 | chore: 13 | epic: 6 | feature: 7 | task: 448
 
 ---
 
-*Generated Jan 8, 2026 at 12:06 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 8, 2026 at 11:42 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
