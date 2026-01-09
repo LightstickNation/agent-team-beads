@@ -41,7 +41,7 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | `agent-orchestrator-94wb` | [P0-001] Wire WORK_LOG publishing fro... | **3** issues | Ready |
 | `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
 | `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
-| `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
 
 ## 📈 Graph Analysis
 
@@ -72,5 +72,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 9, 2026 at 1:50 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 9, 2026 at 1:52 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
