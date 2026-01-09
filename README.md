@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**536** total issues | **83%** complete | **79** ready to work | **11** blocked
+**536** total issues | **83%** complete | **78** ready to work | **11** blocked
 
 ## 🎯 Top Priorities
 
@@ -37,10 +37,10 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
-| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
 | `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
+| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
+| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
+| `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
 
 ## 📈 Graph Analysis
 
@@ -71,5 +71,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 9, 2026 at 10:55 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 9, 2026 at 10:56 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
