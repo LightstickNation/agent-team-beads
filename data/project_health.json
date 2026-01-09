@@ -8,8 +8,8 @@
     "by_status": {
       "blocked": 1,
       "closed": 424,
-      "in_progress": 1,
-      "open": 80
+      "in_progress": 2,
+      "open": 79
     },
     "by_type": {
       "bug": 8,
@@ -34,7 +34,7 @@
     "phase2_ready": false
   },
   "velocity": {
-    "closed_last_7_days": 146,
+    "closed_last_7_days": 144,
     "closed_last_30_days": 424,
     "avg_days_to_close": 2.537552417077246,
     "weekly": [

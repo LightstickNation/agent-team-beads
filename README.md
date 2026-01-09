@@ -16,11 +16,11 @@ The graph analysis identified these as the highest-impact items to work on:
 - ✅ Currently unclaimed - available for work
 
 ### 2. [P0-001] Wire WORK_LOG publishing from all sources (hooks, Discord, terminal, beads)
-**ID:** `agent-orchestrator-94wb` | **Impact Score:** 0.21 | **Unblocks:** 3 issues
+**ID:** `agent-orchestrator-94wb` | **Impact Score:** 0.19 | **Unblocks:** 3 issues
 
 **Why this matters:**
 - 🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-37h3, agent-orchestrator-8bki, agent-orchestrator-puyp)
-- ✅ Currently unclaimed - available for work
+- 🚧 In progress - already being worked
 - 🚨 High priority (P0) - prioritize this work
 
 ### 3. Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks
@@ -39,9 +39,9 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
 | `agent-orchestrator-94wb` | [P0-001] Wire WORK_LOG publishing fro... | **3** issues | Ready |
-| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
 | `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
 | `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
 
 ## 📈 Graph Analysis
 
@@ -72,5 +72,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 9, 2026 at 1:52 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 9, 2026 at 2:06 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
