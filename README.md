@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**506** total issues | **84%** complete | **69** ready to work | **12** blocked
+**506** total issues | **84%** complete | **69** ready to work | **11** blocked
 
 ## 🎯 Top Priorities
 
@@ -38,9 +38,9 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
 | `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
 | `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
 | `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
-| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
 
 ## 📈 Graph Analysis
 
@@ -56,11 +56,11 @@ Low-effort items that clear the path forward:
   - *Unblocks 5 items*
 - **agent-orchestrator-8bki**: [P1-002] Wire WORK_LOG publishing for core agent lifecycle events (unblocks 1)
   - *Unblocks 1 items, high priority*
-- **agent-orchestrator-8tu2**: [P0-002] Add circuit breaker, retry, logging, and file fallback to NATS publishing (unblocks 1)
-  - *Unblocks 1 items, high priority*
 - **agent-orchestrator-c68t**: [SPIKE-008] Validate CASS confidence decay improves agent outcomes via 10-task benchmark (unblocks 1)
   - *Unblocks 1 items, high priority*
 - **agent-orchestrator-luzo**: [SPIKE-011B] Validate ProviderManager pattern enables <4 hour provider additions (unblocks 1)
+  - *Unblocks 1 items, high priority*
+- **agent-orchestrator-x2as**: [SPIKE-005] Validate 5-layer memory system end-to-end (write/read/use/compost) (unblocks 1)
   - *Unblocks 1 items, high priority*
 
 ## 📋 Status Summary
@@ -71,5 +71,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 9, 2026 at 2:20 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 9, 2026 at 2:29 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
