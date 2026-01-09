@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**506** total issues | **84%** complete | **67** ready to work | **15** blocked
+**506** total issues | **84%** complete | **69** ready to work | **12** blocked
 
 ## 🎯 Top Priorities
 
@@ -15,19 +15,18 @@ The graph analysis identified these as the highest-impact items to work on:
 - 🎯 Completing this unblocks 5 downstream issues (agent-orchestrator-4do, agent-orchestrator-4pk, +3 more)
 - ✅ Currently unclaimed - available for work
 
-### 2. [P0-001] Wire WORK_LOG publishing from all sources (hooks, Discord, terminal, beads)
-**ID:** `agent-orchestrator-94wb` | **Impact Score:** 0.19 | **Unblocks:** 3 issues
-
-**Why this matters:**
-- 🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-37h3, agent-orchestrator-8bki, agent-orchestrator-puyp)
-- 🚧 In progress - already being worked
-- 🚨 High priority (P0) - prioritize this work
-
-### 3. Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks
+### 2. Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks
 **ID:** `agent-orchestrator-q2z4` | **Impact Score:** 0.18
 
 **Why this matters:**
 - 📅 Last updated 10 days ago
+- ✅ Currently unclaimed - available for work
+- 🚨 High priority (P1) - prioritize this work
+
+### 3. Dashboard UI design - aesthetics-first approach for agent interface
+**ID:** `agent-orchestrator-17t4` | **Impact Score:** 0.18
+
+**Why this matters:**
 - ✅ Currently unclaimed - available for work
 - 🚨 High priority (P1) - prioritize this work
 
@@ -38,10 +37,10 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
-| `agent-orchestrator-94wb` | [P0-001] Wire WORK_LOG publishing fro... | **3** issues | Ready |
-| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
 | `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
 | `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
+| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
 
 ## 📈 Graph Analysis
 
@@ -53,11 +52,11 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 
 Low-effort items that clear the path forward:
 
-- **agent-orchestrator-94wb**: [P0-001] Wire WORK_LOG publishing from all sources (hooks, Discord, terminal, beads) (unblocks 3)
-  - *Unblocks 3 items, high priority*
 - **agent-orchestrator-ngs**: Team Maturity: Development Best Practices (unblocks 5)
   - *Unblocks 5 items*
 - **agent-orchestrator-8bki**: [P1-002] Wire WORK_LOG publishing for core agent lifecycle events (unblocks 1)
+  - *Unblocks 1 items, high priority*
+- **agent-orchestrator-8tu2**: [P0-002] Add circuit breaker, retry, logging, and file fallback to NATS publishing (unblocks 1)
   - *Unblocks 1 items, high priority*
 - **agent-orchestrator-c68t**: [SPIKE-008] Validate CASS confidence decay improves agent outcomes via 10-task benchmark (unblocks 1)
   - *Unblocks 1 items, high priority*
@@ -72,5 +71,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 9, 2026 at 2:06 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 9, 2026 at 2:20 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 

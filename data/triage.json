@@ -1,21 +1,21 @@
 {
   "meta": {
     "version": "1.0.0",
-    "generated_at": "2026-01-09T02:06:51.394567Z",
+    "generated_at": "2026-01-09T02:20:12.030767Z",
     "phase2_ready": false,
     "issue_count": 506,
-    "compute_time_ms": 2
+    "compute_time_ms": 0
   },
   "quick_ref": {
-    "open_count": 82,
-    "actionable_count": 67,
-    "blocked_count": 15,
+    "open_count": 81,
+    "actionable_count": 69,
+    "blocked_count": 12,
     "in_progress_count": 2,
     "top_picks": [
       {
         "id": "agent-orchestrator-ngs",
         "title": "Team Maturity: Development Best Practices",
-        "score": 0.3691367312386357,
+        "score": 0.36914669442034387,
         "reasons": [
           "🎯 Completing this unblocks 5 downstream issues (agent-orchestrator-4do, agent-orchestrator-4pk, +3 more)",
           "✅ Currently unclaimed - available for work"
@@ -23,22 +23,21 @@
         "unblocks": 5
       },
       {
-        "id": "agent-orchestrator-94wb",
-        "title": "[P0-001] Wire WORK_LOG publishing from all sources (hooks, Discord, terminal, beads)",
-        "score": 0.18684839131578432,
-        "reasons": [
-          "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-37h3, agent-orchestrator-8bki, agent-orchestrator-puyp)",
-          "🚧 In progress - already being worked",
-          "🚨 High priority (P0) - prioritize this work"
-        ],
-        "unblocks": 3
-      },
-      {
         "id": "agent-orchestrator-q2z4",
         "title": "Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks",
-        "score": 0.1808494703901823,
+        "score": 0.18086259810565297,
         "reasons": [
           "📅 Last updated 10 days ago",
+          "✅ Currently unclaimed - available for work",
+          "🚨 High priority (P1) - prioritize this work"
+        ],
+        "unblocks": 0
+      },
+      {
+        "id": "agent-orchestrator-17t4",
+        "title": "Dashboard UI design - aesthetics-first approach for agent interface",
+        "score": 0.1770447343948104,
+        "reasons": [
           "✅ Currently unclaimed - available for work",
           "🚨 High priority (P1) - prioritize this work"
         ],
@@ -64,33 +63,33 @@
         "type:meta",
         "value:critical"
       ],
-      "score": 0.3691367312386357,
+      "score": 0.36914669442034387,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0.08666666666666667,
-        "staleness": 0.011940836588522378,
+        "staleness": 0.011956280959664353,
         "priority_boost": 0.05,
         "time_to_impact": 0,
         "urgency": 0.1,
-        "risk": 0.009200415849088294,
+        "risk": 0.009196692868191244,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0.6666666666666666,
-        "staleness_norm": 0.23881673177044754,
+        "staleness_norm": 0.23912561919328704,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0,
         "urgency_norm": 1,
-        "risk_norm": 0.09200415849088295,
+        "risk_norm": 0.09196692868191243,
         "time_to_impact_explanation": "Leaf node, explicit estimate 1200m",
         "urgency_explanation": "has 'impact:critical' label, aging (18 days)",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.24001386163627647,
+          "activity_churn": 0.23988976227304143,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.09200415849088295,
+          "composite_risk": 0.09196692868191243,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -105,60 +104,6 @@
         "agent-orchestrator-55f",
         "agent-orchestrator-bst",
         "agent-orchestrator-q0g"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-94wb",
-      "title": "[P0-001] Wire WORK_LOG publishing from all sources (hooks, Discord, terminal, beads)",
-      "type": "task",
-      "status": "in_progress",
-      "priority": 0,
-      "labels": [
-        "blake",
-        "overnight",
-        "phase:0",
-        "project:jarvis-mode",
-        "type:bug"
-      ],
-      "score": 0.18684839131578432,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0.017333333333333333,
-        "staleness": 0.000016879891377314814,
-        "priority_boost": 0.1,
-        "time_to_impact": 0.018750000000000003,
-        "urgency": 0.0002546315121240761,
-        "risk": 0.0020000000000000005,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.13333333333333333,
-        "staleness_norm": 0.0003375978275462963,
-        "priority_boost_norm": 1,
-        "time_to_impact_norm": 0.1875,
-        "urgency_norm": 0.002546315121240761,
-        "risk_norm": 0.020000000000000004,
-        "time_to_impact_explanation": "Leaf node, median estimate 180m",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.020000000000000004,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Continue work on this issue",
-      "reasons": [
-        "🎯 Completing this unblocks 3 downstream issues (agent-orchestrator-37h3, agent-orchestrator-8bki, agent-orchestrator-puyp)",
-        "🚧 In progress - already being worked",
-        "🚨 High priority (P0) - prioritize this work"
-      ],
-      "unblocks_ids": [
-        "agent-orchestrator-37h3",
-        "agent-orchestrator-8bki",
-        "agent-orchestrator-puyp"
       ]
     },
     {
@@ -177,12 +122,12 @@
         "strategic:core",
         "tokens:major-savings"
       ],
-      "score": 0.1808494703901823,
+      "score": 0.18086259810565297,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.017014082811979168,
+        "staleness": 0.017029527183121142,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
@@ -190,7 +135,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.34028165623958334,
+        "staleness_norm": 0.34059054366242286,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
@@ -231,33 +176,33 @@
         "strategic:core",
         "tokens:moderate-savings"
       ],
-      "score": 0.17703244862471246,
+      "score": 0.1770447343948104,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.011716867130208336,
+        "staleness": 0.011732311501350309,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
-        "risk": 0.00280660184004162,
+        "risk": 0.002805611316073686,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.2343373426041667,
+        "staleness_norm": 0.23464623002700616,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
-        "risk_norm": 0.028066018400416202,
+        "risk_norm": 0.028056113160736855,
         "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "urgency_explanation": "has 'impact:critical' label",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.026886728001387333,
+          "activity_churn": 0.026853710535789506,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.028066018400416202,
+          "composite_risk": 0.028056113160736855,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -283,12 +228,12 @@
         "strategic:core",
         "tokens:neutral"
       ],
-      "score": 0.1763474013872859,
+      "score": 0.17636052910275657,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.011717531043865742,
+        "staleness": 0.011732975415007715,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
@@ -296,7 +241,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.23435062087731484,
+        "staleness_norm": 0.2346595083001543,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
@@ -333,12 +278,12 @@
         "strategic:core",
         "tokens:major-savings"
       ],
-      "score": 0.16092823487723765,
+      "score": 0.16094136259270833,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.018577335149691357,
+        "staleness": 0.018592779520833335,
         "priority_boost": 0.05,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
@@ -346,7 +291,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.37154670299382714,
+        "staleness_norm": 0.37185559041666666,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
@@ -383,33 +328,33 @@
         "strategic:core",
         "tokens:major-savings"
       ],
-      "score": 0.15567383021202078,
+      "score": 0.15568693877974363,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.012377579180092593,
+        "staleness": 0.012393023551234568,
         "priority_boost": 0.05,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
-        "risk": 0.002018103422284809,
+        "risk": 0.0020180808955226545,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.24755158360185187,
+        "staleness_norm": 0.24786047102469136,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
-        "risk_norm": 0.020181034222848088,
+        "risk_norm": 0.020180808955226545,
         "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "urgency_explanation": "has 'impact:critical' label",
         "risk_explanation": "Low risk - stable dependency structure",
         "risk_signals": {
           "fan_variance": 0,
-          "activity_churn": 0.0006034474094936163,
+          "activity_churn": 0.0006026965174218128,
           "cross_repo_risk": 0,
           "status_risk": 0.1,
-          "composite_risk": 0.020181034222848088,
+          "composite_risk": 0.020180808955226545,
           "explanation": "Low risk - stable dependency structure"
         }
       },
@@ -432,12 +377,12 @@
         "strategic:core",
         "tokens:major-savings"
       ],
-      "score": 0.15510927701187982,
+      "score": 0.1551224047273505,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
         "blocker_ratio": 0,
-        "staleness": 0.011731502366917439,
+        "staleness": 0.011746946738059413,
         "priority_boost": 0.05,
         "time_to_impact": 0.018750000000000003,
         "urgency": 0.1,
@@ -445,7 +390,7 @@
         "pagerank_norm": 0,
         "betweenness_norm": 0,
         "blocker_ratio_norm": 0,
-        "staleness_norm": 0.23463004733834877,
+        "staleness_norm": 0.23493893476118827,
         "priority_boost_norm": 0.5,
         "time_to_impact_norm": 0.1875,
         "urgency_norm": 1,
@@ -468,83 +413,33 @@
       ]
     },
     {
-      "id": "agent-orchestrator-zg3g",
-      "title": "Option B exploration: load core/*.md at runtime as relationship layer - FUTURE CONSIDERATION, not current work",
-      "type": "task",
-      "status": "open",
-      "priority": 2,
-      "labels": [
-        "deferred",
-        "effort:medium",
-        "impact:low",
-        "learning:moderate",
-        "strategic:tactical",
-        "tokens:neutral"
-      ],
-      "score": 0.11540020866083382,
-      "breakdown": {
-        "pagerank": 0,
-        "betweenness": 0,
-        "blocker_ratio": 0,
-        "staleness": 0.021523442947916666,
-        "priority_boost": 0.05,
-        "time_to_impact": 0.018750000000000003,
-        "urgency": 0.04209767936948105,
-        "risk": 0.003393829048289127,
-        "pagerank_norm": 0,
-        "betweenness_norm": 0,
-        "blocker_ratio_norm": 0,
-        "staleness_norm": 0.4304688589583333,
-        "priority_boost_norm": 0.5,
-        "time_to_impact_norm": 0.1875,
-        "urgency_norm": 0.42097679369481045,
-        "risk_norm": 0.03393829048289127,
-        "time_to_impact_explanation": "Leaf node, median estimate 180m",
-        "urgency_explanation": "moderate time pressure",
-        "risk_explanation": "Low risk - stable dependency structure",
-        "risk_signals": {
-          "fan_variance": 0,
-          "activity_churn": 0.04646096827630422,
-          "cross_repo_risk": 0,
-          "status_risk": 0.1,
-          "composite_risk": 0.03393829048289127,
-          "explanation": "Low risk - stable dependency structure"
-        }
-      },
-      "action": "Start work on this issue",
-      "reasons": [
-        "📅 Last updated 12 days ago",
-        "✅ Currently unclaimed - available for work"
-      ]
-    },
-    {
-      "id": "agent-orchestrator-x2as",
-      "title": "[SPIKE-005] Validate 5-layer memory system end-to-end (write/read/use/compost)",
+      "id": "agent-orchestrator-8bki",
+      "title": "[P1-002] Wire WORK_LOG publishing for core agent lifecycle events",
       "type": "task",
       "status": "open",
       "priority": 1,
       "labels": [
-        "phase:spike",
+        "phase:1",
         "project:jarvis-mode",
-        "type:research"
+        "type:feature"
       ],
-      "score": 0.11532539981457077,
+      "score": 0.11907017739193194,
       "breakdown": {
         "pagerank": 0,
         "betweenness": 0,
-        "blocker_ratio": 0.004333333333333333,
-        "staleness": 0.00005677208319830248,
+        "blocker_ratio": 0.008666666666666666,
+        "staleness": 0.00007050865677083334,
         "priority_boost": 0.07500000000000001,
         "time_to_impact": 0.018750000000000003,
-        "urgency": 0.00024271789472808393,
+        "urgency": 0.0003012686670706755,
         "risk": 0.0020000000000000005,
         "pagerank_norm": 0,
         "betweenness_norm": 0,
-        "blocker_ratio_norm": 0.03333333333333333,
-        "staleness_norm": 0.0011354416639660495,
+        "blocker_ratio_norm": 0.06666666666666667,
+        "staleness_norm": 0.0014101731354166666,
         "priority_boost_norm": 0.75,
         "time_to_impact_norm": 0.1875,
-        "urgency_norm": 0.002427178947280839,
+        "urgency_norm": 0.0030126866707067546,
         "risk_norm": 0.020000000000000004,
         "time_to_impact_explanation": "Leaf node, median estimate 180m",
         "risk_explanation": "Low risk - stable dependency structure",
@@ -559,27 +454,118 @@
       },
       "action": "Start work on this issue",
       "reasons": [
-        "🔓 Unblocks 1 item(s): agent-orchestrator-c68t",
+        "🔓 Unblocks 1 item(s): agent-orchestrator-9ae7",
         "✅ Currently unclaimed - available for work",
         "🚨 High priority (P1) - prioritize this work"
       ],
       "unblocks_ids": [
-        "agent-orchestrator-c68t"
+        "agent-orchestrator-9ae7"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-8tu2",
+      "title": "[P0-002] Add circuit breaker, retry, logging, and file fallback to NATS publishing",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 0,
+      "labels": [
+        "atlas",
+        "overnight",
+        "phase:0",
+        "project:jarvis-mode",
+        "type:bug"
+      ],
+      "score": 0.11779254312030649,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0.004333333333333333,
+        "staleness": 0.00001520867700617284,
+        "priority_boost": 0.1,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.00031937673295547866,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.03333333333333333,
+        "staleness_norm": 0.0003041735401234568,
+        "priority_boost_norm": 1,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.0031937673295547864,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): agent-orchestrator-t2x8",
+        "🚧 In progress - already being worked",
+        "🚨 High priority (P0) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "agent-orchestrator-t2x8"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-zg3g",
+      "title": "Option B exploration: load core/*.md at runtime as relationship layer - FUTURE CONSIDERATION, not current work",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "deferred",
+        "effort:medium",
+        "impact:low",
+        "learning:moderate",
+        "strategic:tactical",
+        "tokens:neutral"
+      ],
+      "score": 0.1154213729198055,
+      "breakdown": {
+        "pagerank": 0,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.021538887319058647,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.018750000000000003,
+        "urgency": 0.042108133565964795,
+        "risk": 0.0033928296088653834,
+        "pagerank_norm": 0,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.4307777463811729,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.1875,
+        "urgency_norm": 0.42108133565964795,
+        "risk_norm": 0.03392829608865383,
+        "time_to_impact_explanation": "Leaf node, median estimate 180m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.046427653628846086,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.03392829608865383,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "📅 Last updated 12 days ago",
+        "✅ Currently unclaimed - available for work"
       ]
     }
   ],
   "quick_wins": [
-    {
-      "id": "agent-orchestrator-94wb",
-      "title": "[P0-001] Wire WORK_LOG publishing from all sources (hooks, Discord, terminal, beads)",
-      "score": 1.3000000000000003,
-      "reason": "Unblocks 3 items, high priority",
-      "unblocks_ids": [
-        "agent-orchestrator-37h3",
-        "agent-orchestrator-8bki",
-        "agent-orchestrator-puyp"
-      ]
-    },
     {
       "id": "agent-orchestrator-ngs",
       "title": "Team Maturity: Development Best Practices",
@@ -600,6 +586,15 @@
       "reason": "Unblocks 1 items, high priority",
       "unblocks_ids": [
         "agent-orchestrator-9ae7"
+      ]
+    },
+    {
+      "id": "agent-orchestrator-8tu2",
+      "title": "[P0-002] Add circuit breaker, retry, logging, and file fallback to NATS publishing",
+      "score": 0.9,
+      "reason": "Unblocks 1 items, high priority",
+      "unblocks_ids": [
+        "agent-orchestrator-t2x8"
       ]
     },
     {
@@ -636,26 +631,6 @@
       "actionable": true
     },
     {
-      "id": "agent-orchestrator-94wb",
-      "title": "[P0-001] Wire WORK_LOG publishing from all sources (hooks, Discord, terminal, beads)",
-      "unblocks_count": 3,
-      "unblocks_ids": [
-        "agent-orchestrator-37h3",
-        "agent-orchestrator-8bki",
-        "agent-orchestrator-puyp"
-      ],
-      "actionable": true
-    },
-    {
-      "id": "agent-orchestrator-x2as",
-      "title": "[SPIKE-005] Validate 5-layer memory system end-to-end (write/read/use/compost)",
-      "unblocks_count": 1,
-      "unblocks_ids": [
-        "agent-orchestrator-c68t"
-      ],
-      "actionable": true
-    },
-    {
       "id": "agent-orchestrator-c68t",
       "title": "[SPIKE-008] Validate CASS confidence decay improves agent outcomes via 10-task benchmark",
       "unblocks_count": 1,
@@ -678,20 +653,38 @@
       "blocked_by": [
         "agent-orchestrator-c68t"
       ]
+    },
+    {
+      "id": "agent-orchestrator-luzo",
+      "title": "[SPIKE-011B] Validate ProviderManager pattern enables \u003c4 hour provider additions",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "agent-orchestrator-4xlv"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "agent-orchestrator-x2as",
+      "title": "[SPIKE-005] Validate 5-layer memory system end-to-end (write/read/use/compost)",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "agent-orchestrator-c68t"
+      ],
+      "actionable": true
     }
   ],
   "project_health": {
     "counts": {
       "total": 506,
-      "open": 82,
-      "closed": 424,
-      "blocked": 15,
-      "actionable": 67,
+      "open": 81,
+      "closed": 425,
+      "blocked": 12,
+      "actionable": 69,
       "by_status": {
         "blocked": 1,
-        "closed": 424,
+        "closed": 425,
         "in_progress": 2,
-        "open": 79
+        "open": 78
       },
       "by_type": {
         "bug": 8,
@@ -716,13 +709,13 @@
       "phase2_ready": false
     },
     "velocity": {
-      "closed_last_7_days": 144,
-      "closed_last_30_days": 424,
-      "avg_days_to_close": 2.537552417077246,
+      "closed_last_7_days": 145,
+      "closed_last_30_days": 425,
+      "avg_days_to_close": 2.5316657927692536,
       "weekly": [
         {
           "week_start": "2026-01-05T00:00:00Z",
-          "closed": 108
+          "closed": 109
         },
         {
           "week_start": "2025-12-29T00:00:00Z",
