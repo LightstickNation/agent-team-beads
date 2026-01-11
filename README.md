@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**566** total issues | **81%** complete | **95** ready to work | **11** blocked
+**568** total issues | **81%** complete | **97** ready to work | **11** blocked
 
 ## 🎯 Top Priorities
 
@@ -39,15 +39,15 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
-| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
-| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
 | `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
+| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
+| `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
 
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 566 issues with 110 dependencies
+- **Graph Size:** 568 issues with 110 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -67,11 +67,11 @@ Low-effort items that clear the path forward:
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 47 | P1: 156 | P2: 259 | P3: 90 | P4: 14
+**By Priority:** P0: 47 | P1: 157 | P2: 260 | P3: 90 | P4: 14
 
-**By Type:** bug: 12 | chore: 14 | epic: 6 | feature: 8 | task: 526
+**By Type:** bug: 12 | chore: 14 | epic: 6 | feature: 8 | task: 528
 
 ---
 
-*Generated Jan 11, 2026 at 3:40 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 11, 2026 at 3:46 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
