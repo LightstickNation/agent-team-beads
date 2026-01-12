@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**572** total issues | **81%** complete | **98** ready to work | **11** blocked
+**574** total issues | **81%** complete | **100** ready to work | **11** blocked
 
 ## 🎯 Top Priorities
 
@@ -13,14 +13,14 @@ The graph analysis identified these as the highest-impact items to work on:
 
 **Why this matters:**
 - 🎯 Completing this unblocks 5 downstream issues (agent-orchestrator-4do, agent-orchestrator-4pk, +3 more)
-- 📅 Last updated 9 days ago
+- 📅 Last updated 10 days ago
 - ✅ Currently unclaimed - available for work
 
 ### 2. Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks
-**ID:** `agent-orchestrator-q2z4` | **Impact Score:** 0.18
+**ID:** `agent-orchestrator-q2z4` | **Impact Score:** 0.19
 
 **Why this matters:**
-- 📅 Last updated 12 days ago
+- 📅 Last updated 13 days ago
 - ✅ Currently unclaimed - available for work
 - 🚨 High priority (P1) - prioritize this work
 
@@ -28,7 +28,7 @@ The graph analysis identified these as the highest-impact items to work on:
 **ID:** `agent-orchestrator-17t4` | **Impact Score:** 0.18
 
 **Why this matters:**
-- 📅 Last updated 9 days ago
+- 📅 Last updated 10 days ago
 - ✅ Currently unclaimed - available for work
 - 🚨 High priority (P1) - prioritize this work
 
@@ -39,15 +39,15 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
+| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
+| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
 | `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
 | `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
 
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 572 issues with 110 dependencies
+- **Graph Size:** 574 issues with 110 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -67,11 +67,11 @@ Low-effort items that clear the path forward:
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 49 | P1: 159 | P2: 260 | P3: 90 | P4: 14
+**By Priority:** P0: 49 | P1: 161 | P2: 260 | P3: 90 | P4: 14
 
-**By Type:** bug: 12 | chore: 14 | epic: 6 | feature: 8 | task: 532
+**By Type:** bug: 12 | chore: 15 | epic: 6 | feature: 8 | task: 533
 
 ---
 
-*Generated Jan 11, 2026 at 8:33 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 12, 2026 at 11:33 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
