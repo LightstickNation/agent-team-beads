@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**584** total issues | **80%** complete | **108** ready to work | **11** blocked
+**585** total issues | **80%** complete | **108** ready to work | **11** blocked
 
 ## 🎯 Top Priorities
 
@@ -39,15 +39,15 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
+| `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
 | `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
 | `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
-| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
 
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 584 issues with 110 dependencies
+- **Graph Size:** 585 issues with 110 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -67,11 +67,11 @@ Low-effort items that clear the path forward:
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 50 | P1: 168 | P2: 262 | P3: 90 | P4: 14
+**By Priority:** P0: 50 | P1: 169 | P2: 262 | P3: 90 | P4: 14
 
-**By Type:** bug: 12 | chore: 15 | epic: 6 | feature: 8 | task: 543
+**By Type:** bug: 12 | chore: 15 | epic: 6 | feature: 8 | task: 544
 
 ---
 
-*Generated Jan 12, 2026 at 3:26 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 12, 2026 at 5:08 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
