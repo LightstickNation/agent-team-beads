@@ -2,7 +2,7 @@
 
 ## 📊 Executive Summary
 
-**694** total issues | **75%** complete | **164** ready to work | **11** blocked
+**694** total issues | **75%** complete | **163** ready to work | **11** blocked
 
 ## 🎯 Top Priorities
 
@@ -40,9 +40,9 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
 | `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
 | `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
 | `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
 
 ## 📈 Graph Analysis
 
@@ -73,5 +73,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 15, 2026 at 8:37 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 15, 2026 at 8:40 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
