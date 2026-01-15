@@ -2,33 +2,33 @@
 
 ## 📊 Executive Summary
 
-**628** total issues | **77%** complete | **136** ready to work | **11** blocked
+**668** total issues | **75%** complete | **153** ready to work | **11** blocked
 
 ## 🎯 Top Priorities
 
 The graph analysis identified these as the highest-impact items to work on:
 
 ### 1. Team Maturity: Development Best Practices
-**ID:** `agent-orchestrator-ngs` | **Impact Score:** 0.37 | **Unblocks:** 5 issues
+**ID:** `agent-orchestrator-ngs` | **Impact Score:** 0.38 | **Unblocks:** 5 issues
 
 **Why this matters:**
 - 🎯 Completing this unblocks 5 downstream issues (agent-orchestrator-4do, agent-orchestrator-4pk, +3 more)
-- 📅 Last updated 11 days ago
+- 📅 Last updated 13 days ago
 - ✅ Currently unclaimed - available for work
 
 ### 2. Cross-environment memory persistence - ensure memory works across Claude Code, Cursor, Fly.io workers, and scheduled tasks
 **ID:** `agent-orchestrator-q2z4` | **Impact Score:** 0.19
 
 **Why this matters:**
-- 📅 Last updated 14 days ago
+- 🕐 No activity in 16 days - may need review
 - ✅ Currently unclaimed - available for work
 - 🚨 High priority (P1) - prioritize this work
 
 ### 3. Dashboard UI design - aesthetics-first approach for agent interface
-**ID:** `agent-orchestrator-17t4` | **Impact Score:** 0.18
+**ID:** `agent-orchestrator-17t4` | **Impact Score:** 0.19
 
 **Why this matters:**
-- 📅 Last updated 11 days ago
+- 📅 Last updated 13 days ago
 - ✅ Currently unclaimed - available for work
 - 🚨 High priority (P1) - prioritize this work
 
@@ -39,15 +39,15 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
-| `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
 | `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
+| `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
+| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
 
 ## 📈 Graph Analysis
 
 - **Dependency Density:** 0.000 (🟢 Healthy) — Issues are well-isolated and can be parallelized
-- **Graph Size:** 628 issues with 110 dependencies
+- **Graph Size:** 668 issues with 110 dependencies
 - **Cycles:** None detected ✓
 
 ## 🏃 Quick Wins
@@ -67,11 +67,11 @@ Low-effort items that clear the path forward:
 
 ## 📋 Status Summary
 
-**By Priority:** P0: 63 | P1: 177 | P2: 284 | P3: 90 | P4: 14
+**By Priority:** P0: 64 | P1: 183 | P2: 311 | P3: 96 | P4: 14
 
-**By Type:** bug: 24 | chore: 15 | epic: 6 | feature: 13 | task: 570
+**By Type:** bug: 25 | chore: 15 | epic: 6 | feature: 13 | task: 609
 
 ---
 
-*Generated Jan 13, 2026 at 1:27 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 15, 2026 at 10:56 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
