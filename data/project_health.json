@@ -8,8 +8,8 @@
     "by_status": {
       "blocked": 1,
       "closed": 523,
-      "in_progress": 5,
-      "open": 165
+      "in_progress": 6,
+      "open": 164
     },
     "by_type": {
       "bug": 25,
