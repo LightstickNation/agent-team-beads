@@ -1,46 +1,50 @@
 {
   "counts": {
-    "total": 745,
-    "open": 189,
-    "closed": 556,
+    "total": 747,
+    "open": 190,
+    "closed": 557,
     "blocked": 11,
-    "actionable": 178,
+    "actionable": 179,
     "by_status": {
       "blocked": 1,
-      "closed": 556,
+      "closed": 557,
       "in_progress": 4,
-      "open": 184
+      "open": 185
     },
     "by_type": {
       "bug": 25,
       "chore": 15,
       "epic": 14,
-      "feature": 14,
-      "task": 677
+      "feature": 15,
+      "task": 678
     },
     "by_priority": {
       "0": 68,
       "1": 190,
-      "2": 360,
-      "3": 113,
+      "2": 361,
+      "3": 114,
       "4": 14
     }
   },
   "graph": {
-    "node_count": 745,
+    "node_count": 747,
     "edge_count": 110,
-    "density": 0.0001984556541820019,
+    "density": 0.00019739368555544789,
     "has_cycles": false,
     "phase2_ready": false
   },
   "velocity": {
-    "closed_last_7_days": 93,
-    "closed_last_30_days": 556,
-    "avg_days_to_close": 1.9813005138633677,
+    "closed_last_7_days": 94,
+    "closed_last_30_days": 557,
+    "avg_days_to_close": 1.9777990070587512,
     "weekly": [
       {
+        "week_start": "2026-01-19T00:00:00Z",
+        "closed": 0
+      },
+      {
         "week_start": "2026-01-12T00:00:00Z",
-        "closed": 93
+        "closed": 94
       },
       {
         "week_start": "2026-01-05T00:00:00Z",
@@ -64,10 +68,6 @@
       },
       {
         "week_start": "2025-12-01T00:00:00Z",
-        "closed": 0
-      },
-      {
-        "week_start": "2025-11-24T00:00:00Z",
         "closed": 0
       }
     ]
