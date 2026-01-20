@@ -34,7 +34,7 @@
     "phase2_ready": false
   },
   "velocity": {
-    "closed_last_7_days": 76,
+    "closed_last_7_days": 75,
     "closed_last_30_days": 558,
     "avg_days_to_close": 1.974280466653205,
     "weekly": [
