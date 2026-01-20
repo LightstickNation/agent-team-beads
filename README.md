@@ -28,7 +28,7 @@ The graph analysis identified these as the highest-impact items to work on:
 **ID:** `agent-orchestrator-17t4` | **Impact Score:** 0.19
 
 **Why this matters:**
-- 🕐 No activity in 17 days - may need review
+- 🕐 No activity in 18 days - may need review
 - ✅ Currently unclaimed - available for work
 - 🚨 High priority (P1) - prioritize this work
 
@@ -39,10 +39,10 @@ These issues are blocking the most downstream work. Clearing them has outsized i
 | Issue | Title | Unblocks | Status |
 |-------|-------|----------|--------|
 | `agent-orchestrator-ngs` | Team Maturity: Development Best Pract... | **5** issues | Ready |
-| `agent-orchestrator-x2as` | [SPIKE-005] Validate 5-layer memory s... | **1** issues | Ready |
-| `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
-| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
 | `agent-orchestrator-8bki` | [P1-002] Wire WORK_LOG publishing for... | **1** issues | Ready |
+| `agent-orchestrator-luzo` | [SPIKE-011B] Validate ProviderManager... | **1** issues | Ready |
+| `agent-orchestrator-c68t` | [SPIKE-008] Validate CASS confidence ... | **1** issues | Blocked by 1 |
+| `agent-orchestrator-l1wz` | [P3-001] Add single retrieval step to... | **1** issues | Blocked by 1 |
 
 ## 📈 Graph Analysis
 
@@ -73,5 +73,5 @@ Low-effort items that clear the path forward:
 
 ---
 
-*Generated Jan 20, 2026 at 12:19 AM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
+*Generated Jan 20, 2026 at 2:26 PM GMT by [bv](https://github.com/Dicklesworthstone/beads_viewer)*
 
